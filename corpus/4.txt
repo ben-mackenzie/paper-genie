@@ -1,0 +1,305 @@
+The Egyptian Journal of Medical Human Genetics 18 (2017) 329­334
+Contents lists available at ScienceDirect
+The Egyptian Journal of Medical Human Genetics
+journal homepage: www.sciencedirect.com
+Original article
+Germline variants in the ATM gene and breast cancer susceptibility in Moroccan women: A meta-analysis
+Chaymaa Marouf a,b,, Omar Hajji c, Amal Tazzite a,b, Hassan Jouhadi d, Abdellatif Benider d, Sellama Nadifi a,b
+a Laboratory of Genetics and Molecular Pathology­Medical School of Casablanca, Casablanca, Morocco b University Hassan II Ain Chock, Center Of Doctoral Sciences ``In Health Sciences", Casablanca, Morocco c Department of Oncology, Littoral Clinic, Casablanca, Morocco d Mohammed VI Center for Cancer Treatment, Ibn Rochd University Hospital, Casablanca, Morocco
+
+article info
+Article history: Received 12 October 2016 Accepted 23 February 2017 Available online 6 March 2017
+Keywords: Breast cancers ATM gene Germline mutation Genetic susceptibility Moroccan population
+
+abstract
+Background: The ATM gene encoding a large protein kinase is mutated in ataxia-telangiectasia (AT), an autosomale recessive disease characterized by neurological and immunological symptoms, and cancer predisposition. Previous studies suggest that heterozygous carriers of ATM mutations have an increased risk of breast cancer compared with non carriers, but the contribution of specific variants has been difficult to estimate. However, two functional ATM variants, c.7271T > G and c.1066­6T > G (IVS10­ 6T > G), are associated with increased risk for the development of breast cancer. Methods: To investigate the role of ATM in breast cancer susceptibility, we genotyped 163 case patients with breast cancer and 150 healthy control individuals for the c.7271T > G and c.1066­6T > G (IVS10­ 6T > G) ATM variants using polymerase chain reaction (PCR)-restriction fragment length polymorphism (RFLP) analysis. Results: We did not detect the ATM c.7271T > G and c.1066­6T > G (IVS10­6T > G) mutations in any of 150 healthy control individuals and 163 breast cancer patients, including 59 women diagnosed with breast cancer at an early age (<40 years), 10 women with bilateral breast cancer, and 6 women with ovarian cancer. Conclusion: These observations suggested that the more common c.1066­6T > G (IVS10­6T > G) mutation and the rare c.7271T > G variant are not a risk factor for developing breast cancer in the Moroccan population. Larger and/or combined association studies are needed to clarify this issue. Ó 2017 Ain Shams University. Production and hosting by Elsevier B.V. This is an open access article under
+the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+1. Introduction
+Biallelic germline mutations in the ATM gene (MIM# 208900) are linked to the rare human autosomale recessive disorder called ataxia-telangiectasia (AT). The syndrome has an estimated frequency of 1in 40.000 to 1in 100.000 live births and is characterized by various clinical features such as cerebellar neurodegeneration (ataxia), dilated blood vessels in the eyes and skin (telangiectasia), immunodeficiency, growth retardation, premature aging, chromosomal instability, increased sensitivity to ionizing radiation and a highly increased susceptibility to cancer, in particular leukaemia
+Peer review under responsibility of Ain Shams University.
+ Corresponding author at: University Hassan II Ain Chock, Center Of Doctoral
+Sciences ``In Health Sciences", Casablanca, Morocco. E-mail address: maroufchaymaa@gmail.com (C. Marouf).
+
+and lymphomas [1­13]. ATM, a member of the phosphotidylinositol 3-kinase-like family, codes for a large serine-threonine kinase of 3056 amino acids that plays a central role in sensing and signaling the presence of DNA double-strand breaks that may be caused by exposure to ionizing radiation or other types of DNA damaging agents [14­16].
+The ATM gene, located on human chromosome 11q22.3-23.1, extends over 150 kb of genomic DNA composed of 66 exons, giving rise to a transcript of approximately 13 kb that contains an open reading frame (ORF). It has been reported to be involved in numerous damage repair signaling pathways and cell-cycle checkpoints [6,17­20]. Loss of heterozygosity in the region of the ATM gene has been detected in approximately 40% of human sporadic breast tumors [21­25]. Breast cancer patients with the combination of radiation treatment and an ATM missense variant resulted in a shorter mean interval to develop a second tumor than patients
+
+http://dx.doi.org/10.1016/j.ejmhg.2017.02.002 1110-8630/Ó 2017 Ain Shams University. Production and hosting by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+330
+
+C. Marouf et al. / The Egyptian Journal of Medical Human Genetics 18 (2017) 329­334
+
+without radiation treatment and ATM germline variant [26]. Previously, several epidemiological case-control studies based on relatives of AT and breast cancer have estimated that the heterozygous carriers of ATM mutations are at increased risk of breast cancer and have a two to thirteen fold risk [4,27­39], with some evidence of higher relative risk under the age of 50 years. In spite of that, studies of patients with breast cancer have so far failed to consistently demonstrate an elevated prevalence of germline ATM gene mutations among breast cancer cases relative to controls [32,33].
+Since the cloning of the ATM gene in 1995 [40], many casecontrol studies have carried out mutation screening and single nucleotide polymorphism (SNP) genotyping to clarify the role of ATM genetic variation in breast cancer predisposition [41­47]. Specific functional variants of the ATM gene have been individually associated with higher breast cancer risk. One particular ATM missense mutation, c.7271T > G, was originally identified in two British A-T families with atypical clinical presentation and an excess of breast cancer. That variant was associated with a 12.7-fold (95% confidence interval [CI] 53.5­45.9; P50.003) increase in breast cancer risk [48].The results have not been replicated in subsequent studies [29,49,50]. However, Tavtigian and colleagues did show that missense substitutions in the FAT and Kinase domains, including c.7271T > G, confer greater risk than do truncating variants. The role of missense substitutions uncovered in this paper also somewhat increases the best estimate for the population carrier frequencies of variants in ATM that are pathogenic for breast cancer [51].
+A second, more common, the out-of-frame splicing mutation c.1066-6T > G (IVS10-6T > G), has also been associated with an increased risk of breast cancer in some [38,52] but not all [49] studies. This pathogenic mutation leads to incorrect splicing of exon 11 and exon skipping, resulting in a frame-shift starting at codon 355 and subsequently truncation of the protein at codon 371. The loss of exon 11 in the mRNA was the pathogenic consequence of this splicing mutation which produced less than 10% of full-length ATM mRNA and ATM protein [44]. The frequent occurrence of the IVS10­6T > G and c.7271T > G in breast cancer patients prompted the question whether this mutation frequently arises de novo in the population. A complete understanding of this breast cancer-related ATM variant and its impact on human health requires, besides a genetic and functional analysis, an insight into its natural history. Thus, the purpose of the current study was to investigate the associations between the c.7271T > G and c.1066­ 6T > G ATM gene variants and breast cancer risk in case-control series from Moroccan population.
+2. Subjects and methods
+2.1. Study population
+Cases were 163 female patients affected with breast cancer as the first diagnosed cancer. Among them, 113 were recruited from Mohammed VI Center for Cancer Treatment of Ibn Rochd University Hospital of Casablanca during 2009­2010 and 50 patients were recruited from the Department of Oncology of the Littoral Clinic of Casablanca during 2013.
+Clinico-pathological parameters including age at diagnosis, menopausal status, histology type, tumor size, Scarff-BloomRichardson (SBR) grade, lymph nodes status, and hormone receptors status were obtained from patients' medical records. The group of sporadic cases (n = 75) presented a median age at diagnosis of 36.9 years (range 23­59 years). The group of familial breast and/or ovarian cases (n = 59) presented a median age at diagnosis of 44.8 years (range of 25­67 years), and included women with specific family-history criteria (Fig. 1):
+
+­ Three or more first or second degree relatives with breast cancer diagnosed in the same familial branch, at any age
+­ Two first degree relatives with breast cancer, with at least one early onset breast cancer case ( 40 years).
+The controls were 150 female blood donors collected through the Service of Genetics and Molecular Pathology Laboratory. All blood donors were healthy and with no personal history of breast cancer. Median age at blood donation was 36.4 years (range of 20­ 77 years). All the individuals included in the present case-control study signed an informed consent to the use of their biological material for genetic research purposes approved by the Ethic Committee for Biomedical Research in Casablanca (CERBC) of the Faculty of Medicine and Pharmacy in accordance with The Code of Ethics of the World Medical Association (declaration of Helsinki) for experiments in humans.
+2.2. DNA isolation and PCR-RFLP amplification
+Genomic DNA was extracted from peripheral blood leukocytes using the salting out procedure [53]. Genomic DNA was dissolved in TE (10 mM Tris-HCl and 0.1 mM EDTA, pH 8.0), confirmed by agarose gel electrophoresis. Spectrophotometry was used to quantify DNA using the Nanovue TM Plus spectrophotometer.
+Polymerase chain reaction-restriction fragment length polymorphism (PCR-RFLP) analysis was performed to determine the T7271G and IVS10­6T > G variants of ATM gene.
+2.3. ATM T7271G variant analysis
+The ATM c.7271T > G mutation was detected by amplifying genomic DNA with the forward primer 50-TGAAAAGAGCCAAAaAG GAGG-30 and the reverse primer 50-TAACTGGTGAACATAAAATTGT CAC-30 using The Veriti Thermal Cycler (Applied Biosystems). The lowercase ``a" in the forward primer is a mismatch (the nucleotide is G in the published sequence) that was specifically introduced to destroy an MnlI site adjacent to and overlapping with the MnlI site created by the G substitution at nucleotide 7271, thus allowing the 7271 nucleotide substitution to be detected by MnlI digestion [52].
+The PCR reaction was carried out to amplify ATM gene in a final volume of 25 mL containing 10X reaction buffer, 25 mM MgCl2, 5 mM dNTPs, 5 mM primers, 500 U of Taq DNA polymerase, and 150 ng of genomic DNA. The PCR amplification conditions were as follows: 5 min at 94 °C, followed by 35 cycles of 20 s at 94 °C, 20 s at 55 °C, and 20 s at 72 °C, with a final extension step of 5 min at 72 °C. The PCR products were digested with the MnlI restriction enzyme.
+Thus, 10 mL of PCR product was digested with 3 U of MnlI restriction enzyme in a 20 mL reaction with 1X reaction buffer and bovine serum albumin (0.1 mg/mL) at 37 °C overnight. The digested products were separated by electrophoresis in a 4.5% agarose gel containing éthidium bromide and visualized under UV illumination. Wild type allele resulted in 101 bp fragment, and variant allele resulted in 13 and 88 bp fragments. All fragments were observed for heterozygous genotype.
+2.4. ATM IVS10­6T > G variant analysis
+A PCR­ RFLP assay was used to detect the ATM IVS10­6T > G variant using The Veriti Thermal Cycler (Applied Biosystems). A 193 bp PCR product was amplified using the following primers: Forward; 50-ACAGCGAAACTCTGGCTCAAA-30, Reverse; 50-TGATCTT TTATTACTTCCCAGCCTAGT-30 in a final volume of 25 mL as described above [52].
+Cycling conditions were 94 °C for 4 min, followed by 35 cycles of 20 s of denaturing at 94 °C, 20 s at 53 °C, and 20 s of annealing
+
+C. Marouf et al. / The Egyptian Journal of Medical Human Genetics 18 (2017) 329­334
+
+331
+
+Fig. 1. Pedigree corresponding to one of the families included in the present study of ATM mutation in hereditary breast cancer. The index case is indicated with an arrow.
+
+at 72 °C, with a final extension at 72 °C for 7 min. The PCR products were digested with the RsaI restriction enzyme.
+Digestion was performed in a total volume of 20 ml containing 10 ml PCR product, 1X digestion buffer, 0.1 mg/mL BSA and 3U of RsaI by overnight incubation at 37 °C. The digested products were separated by electrophoresis on a 4.5% agarose gel staining with ethidium bromide, and the genotype was determined by the banding pattern observed. The variant allele was identified by the presence of 58 bp and 135 bp fragments, and the Wild type allele, which lacks a RsaI restriction site, was identified by a single 193bp fragment. All fragments were observed for heterozygous genotype.
+3. Results
+In total, 163 breast cancer cases and 150 controls were successfully genotyped for the T7271G and IVS10­6T > G variants of the ATM gene using the PCR-RFLP technique. The baseline characteristics of the population sample including distribution of tumor characteristic such as histological grade and location of cancer were obtained from patients'medical records and listed in Table 1.
+None of the 163 Moroccan breast cancer patients carried the ATM T7271G and IVS10­6T > G mutation. Moreover among the 163 cases, 40 patients had been screened for BRCA1 and BRCA2 mutations [54]. Thus, in the 30 patients who were non-BRCA mutation carriers, the analysis of T7271G and IVS10­6T > G mutation was also found negative.
+4. Discussion
+The ATM gene has long been hypothesized to be a breast cancer susceptibility gene, but the evidence has been contradictory. Most mutation analyses of ATM in patients with breast cancer and in control subjects have not found the increased frequency of mutations in case patients that would be expected if these mutations did predispose to breast cancer [32,33,37,42]. However, these studies have been limited by a lack of statistical power [55] and by the choice of method for mutation detection, most of which exclusively or preferentially detect protein-truncating mutations [56]. Furthermore, these studies have focused largely on patients with sporadic breast cancer, and few have tested for ATM mutations in multiple-case breast cancer families in which segregation between mutation and cancer can be examined [57].
+In the present population-based case-control study, we evaluated for the first time the involvement of two ATM mutations, T7271G and IVS10­6T ? G, on breast cancer susceptibility in the
+
+Table 1 Characteristics of individuals with breast cancer at time of diagnosis, screened for ATM c.7271T > G and c.1066­6T > G (IVS10­6T > G) mutations.
+
+Characteristics
+Cases/Controls Age at diagnosis, mean ± SD (years) Range (years)
+Menopausal Status Premenopausal Postmenopausal Missing
+Estrogen receptor Positive Negative Missing
+Progesterone receptor Positive Negative Missing
+Estrogen/Progesterone receptor ER+/PR+ ER+/PRÀ ERÀ/PR+ ERÀ/PR-
+Tumor size <2 cm >2 cm >5 cm Tumor of any size with extension
+Histological grade 1 2 3
+Lymph node status Negative Positive
+Distant metastases Negative Positive
+
+Samples 163/150 41 ± 11 23­67 No. (%) 85(52.14) 77(47.23) 1(0.61)
+120 (73.61) 33 (20.24) 10 (6.13)
+103 (63.19) 50(30.67) 10 (6.13)
+46 (28.22) 34 (20.85) 20 (12.26) 63 (38.65)
+25 (15.33) 66 (40.49) 41(25.15) 31 (19.01)
+22 (13.49) 95 (58.28) 46 (28.22)
+65(39.87) 98 (60.12)
+133(81.59) 30 (18.40)
+
+Moroccan population. For this purpose, we performed a screening of those variants in 163 Moroccan breast cancer patients and 150 healthy controls. We found that none of the 313 analyzed samples carried the ATM T7271G and IVS10­6T ? G mutations, suggesting that the frequency of those variants is extremely low (or not present) in the Moroccan population.
+Furthermore, the existence of two distinct classes of ATM mutations (truncating and missense) might explain some of the contradictory data on cancer risk. Some missense variants in ATM encode
+
+332
+
+C. Marouf et al. / The Egyptian Journal of Medical Human Genetics 18 (2017) 329­334
+
+Table 2 Studies investigating the frequency of T7271 G and IVS10­6T > G ATM gene variants in breast cancer cases and controls by ethnicity.
+
+Variant
+
+Study
+
+T7271G
+
+Africa Present study
+
+Country MOROCCO
+
+Year
+
+Overall Case
+
+Overall Control
+
+Carriers n (frequency of carriers,%)
+Case
+
+Carriers n (frequency of carriers,%)
+Control
+
+2016 163
+
+150
+
+0(0)
+
+0(0)
+
+IVS10-6T > G
+
+América Bernstein and al Bernstein and al Szabo and al Bernstein and al Australia Chenevix-Trench and al Europe Szabo and al Szabo and al Szabo and al Renwick and al
+Africa Present study
+
+USA CANADA CANADA USA
+AUSTRALIA
+THE NETHERLANDS AUSTRIA FRANCE UNITED KINGDOM
+MOROCCO
+
+2006 2006 2004 2003
+2002
+2004 2004 2004 2006
+
+1110 1195 43 511
+525
+501 87 209 443
+
+2016 163
+
+1268 1268 ­ 638
+381
+184 91 ­ 521
+150
+
+2 (0.2) 4 (0.3) 0 (0) 0 (0)
+1 (0.1)
+0 (0) 0 (0) 0 (0) 2(0.4)
+0(0)
+
+0 (0) 0 (0) ­ 1(0.2)
+0 (0)
+0 (0) 0 (0) ­ 0 (0)
+0(0)
+
+América Bernstein and al Sommer and al Bernstein and al
+Szabo and al Europe Broeks and al Dork and al Szabo and al Szabo and al Szabo and al Lei and al
+Broeks and al Soukupova and al Australia Lindeman and al Thompson and al Chenevix-Trench and al Bernstein and al
+
+USA USA USA CANADA AUSTRALIA CANADA
+THE NETHERLANDS GERMANY THE NETHERLANDS AUSTRIA FRANCE SWEDEN AND CZECH REPUBLIC THE NETHERLANDS CZECH REPUBLIC
+AUSTRALIA AUSTRALIA AUSTRALIA USA CANADA AUSTRALIA
+
+2003 2002 2006
+2004
+2000 2001 2004 2004 2004 2002
+2003 2008
+2004 2005 2002 2006
+
+511 43 3757
+44
+82 1000 621 87 209 768
+233 161
+495 302 262 3757
+
+638 43 1268
+­
+268 500 452 91 ­ 557
+268 183
+725 707 68 1268
+
+1 (0.2) 0 (0) 13(0.3)
+0 (0)
+3(3.7) 7(0.7) 6(0.9) 2(2.3) 0 (0) 2 (0.2)
+3(1.3) 1(0.6)
+7(1.4) 3(1.0) 0 (0) 13(0.3)
+
+8 (1.3) 1(2.3) 10(0.8)
+­
+2(0,7) 3(0.6) 3(0,6) 1(1.1) ­ 1 (0.2)
+2(0.7) 2(1.1)
+6 (0.8) 7 (1.0) 0 (0) 10(0.8)
+
+References
+Present study
+[47] [47] [67] [70]
+[52]
+[67] [67] [67] [31]
+Present study
+[70] [80] [47]
+[67]
+[38] [44] [67] [67] [67] [81]
+[82] [83]
+[79] [49] [52] [47]
+
+stable, but functionally abnormal proteins that could compete in complex formation with the normal ATM protein, resulting in a dominant-negative cellular phenotype and confer a particularly high risk of breast cancer when heterozygous, while causing a milder form of AT, when homozygous. In contrast, truncating mutations produce an unstable ATM protein so that heterozygote individuals still maintain 50% of wild type ATM activity, resulting in an almost normal phenotype [56,58]. The initial studies that examined the role of truncating ATM mutations and breast cancer risk failed to reveal statistically significant disease associations [33,59]. This was despite the evidence of excess breast cancer incidence within A-T families [34­37,42,60­64]. This apparent dichotomy between the results obtained with these two different study designs may simply reflect inadequate power rather than true disagreement [55]. However, an analysis of 20 missense ATM mutations provided little support for an association of ATM missense mutation and breast cancer [65]. Thompson et al. [63] also found no evidence for a difference in risk of breast or other cancer according to the type of ATM mutation, while the risk estimate of Renwick et al. [31] was based mainly on truncating mutations. Haplotype analysis could also reveal a role for common variants in the ATM gene in causing breast cancer. Five biallelic haplotype tagging sin-
+
+gle nucleotide polymorphisms (SNPs) have been estimated to capture 99% of the haplotype diversity in Caucasian populations. In the Nurses Health Study, there was no evidence that common haplotypes of ATM are associated with breast cancer risk [66]. When confirmed, this could suggest that less common variation in ATM is involved in increasing breast cancer risk, which can only be addressed in much larger studies. A possible example of such a variant is the c.7271T > G (V2424G), with an allele frequency of approximately 0.2% among cases and a substantially elevated breast cancer risk [47,52,67] (Table 2).
+The first variant studied, T7271G, was the only ATM mutation found in the A-T family reported by Stankovic et al. and is, therefore, likely to be pathogenic, although weakly so, because the three A-T case patients in this family had an atypically mild clinical phenotype. In the first of the families, two individuals homozygous for T7271G developed breast cancer at 44 and 50 years and their mother, an obligate carrier of the mutation, developed breast cancer at 82 years. In the second family, two brothers with ataxiatelangiectasia were compound heterozygotes for T7271G and a truncating mutation. Three paternal aunts of the brothers developed breast cancer in their 50s one of whom was confirmed to be a heterozygous T7271G carrier [48]. Subsequently, an Australian
+
+C. Marouf et al. / The Egyptian Journal of Medical Human Genetics 18 (2017) 329­334
+
+333
+
+family was reported in which five women with breast cancer were heterozygous T7271G carriers. Expression and activity analyses of ATM in cell lines from the carriers suggested that the mutation acts in a dominant negative activity [52]. This mutation has been shown to be very rare in several other studies [31,52,67,70]. The T7271G variant is predicted to result in a valine to glycine substitution at position 2424 of the ATM protein (p.Val2424Gly). While this substitution does not affect any readily-recognizable functional domain, programs such as SIFT [68] and PolyPhen [69], which attempt to classify mutations based on sequence conservation and structural prediction, suggest that this substitution is deleterious.
+On the other hand, IVS10­6T ? G ATM mutation has been detected in the homozygous state in one German patient with fullblown A-T [38,71]. This leaky splicing mutation appears to be the most common pathogenic ATM gene mutation at the population level, although it is infrequently compared with other ATM mutations in ataxia-telangiectasia patients [72,73] suggesting an incomplete penetrance with regard to classical A-T symptoms. In view of its population-wide frequency and its ancient origin, together with its impairment of ATM function and its linkage with breast cancer, the IVS10­6T > G mutation may constitute one of the most common inherited susceptibility loci. This variant had been demonstrated to affect normal splicing of exon 11 and exon skipping, resulting in a frame shift starting at codon 355 and subsequent truncation of the protein at amino acid 419 (Table 2).
+Our results thus refute those of Chenevix-Trench et al. [52] who proposed that the ATM IVS10­6T > G and 7271T > G mutations are high-risk breast cancer-susceptibility alleles. They based their estimates of the breast cancer risks conferred by these two mutations on only 2 and 1 single family, respectively, together including 14 cases with breast cancer. The total likelihood of disequilibrium score for linkage of breast cancer to the ATM locus from these three families was 1.18 (odds of 15:1 in favor of linkage), which does not meet conventional criteria for significant linkage. Given the relatively little linkage information/family (likelihood of disequilibrium scores of 0.14, 0.64, and 0.40), precise estimates of the breast cancer risks conferred by the two mutations could not be derived from their dataset, and hence, their Bayes factors should be viewed with caution. Combining the Bayes factors reported for the two Australian ATM IVS10­6T > G-positive families [52] with those of the 5 families in this study gives total Bayes factors of 0.04 (LCIS case classified as unaffected) and 0.0025 (LCIS case classified as affected). These results imply overall odds of 25:1 and 400:1 against causality, respectively. The expectation that many of the breast cancer-susceptibility alleles yet to be identified will confer low breast cancer risks [74] underlines the need for stringent thresholds of statistical significance, large sample sizes, and independent replication before results should be considered convincing [75,76].
+5. Conclusion
+Our data do not support an increased breast cancer risk for the ATM IVS10­6T > G mutation, although a slightly increased risk cannot be formally excluded. Neither the ATM IVS10­6T > G mutation nor the ATM 7271T > G mutation is likely to have a substantial contribution to familial breast cancer. No evidence currently exists that any mutation of the ATM gene confers a high risk of breast cancer [35,33,38,44,48,52,62]. In contrast to others [77,78], we believe that carrier screening in clinical settings for the purpose of breast cancer risk assessment is as yet not indicated for any ATM allele. However, a role for the ATM gene in breast cancer susceptibility is plausible but the exact association remains unclear,
+
+and most probably comprises only a modest role in familial breast cancer susceptibility.
+Conflict of interest
+We have no conflict of interest to declare.
+References
+[1] Boder E. Ataxia-telangiectasia: an overview. In: Gatti RA, editor. AtaxiaTelangiectasia: genetics, neuropathology and immunology of a degenerative disease of childhood. New York: Alan R. Liss; 1985. p. 1­63.
+[2] Gatti RA, Boder E, Vinters HV, Sparkers RS, Norman A, Lange. Ataxiatelangiectasia: an interdisciplinary approach to pathogenesis. Medicine (Baltimore) 1991;70:99­117.
+[3] Segdwick RP, Boder E. Ataxia-telangiectasia. In Vianney De Jong JMB, editors. Hereditary neuropathies and spinocerebellar atrophies. Amsterdam: Elsevier Science Publishers. 1991. p. 347­423.
+[4] Easton DF. Cancer risks in A-T heterozygotes. Int J Radiat Biol 1994;66: S177­82.
+[5] Shiloh Y. Ataxia-telangiectasia: closer to unravelling the mystery. Eur J Hum Genet 1995;3:116­38.
+[6] Savitsky K, Bar-Shira A, Gilad S, Rotman G, Ziv Y, Vanagaite L, et al. A single ataxia telangiectasia gene with a product similar to PI-3 kinase. Science 1995;268(5218):1749­53.
+[7] Lavin MF, Shiloh Y. Ataxia-telangiectasia: a multifaceted genetic disorder associated with defective signal transduction. Curr Opin Immunol 1996;8:459­64.
+[8] Lavin MF, Shiloh Y. The genetic defect in ataxia-telangiectasia. Annu Rev Immunol 1997;15:177­202.
+[9] Gatti RA. Ataxia-telangiectasia. In: Vogelstein B, Kinzler KW, editors. The genetic basis of human cancer. McGraw-Hill: New York; 2002. p. 239­66.
+[10] Chun HH, Gatti RA. DNA repair (Amsterdam) 2004;3:1187­96. [11] Taylor AM, Byrd PJ. J Clin Pathol 2005;58:1009­15. [12] Ahmed M, Rahman N. ATM and breast cancer susceptibility. Oncogene
+2006;25(43):5906­11. [13] Ambrose M, Gatti RA. Pathogenesis of ataxia-telangiectasia: the next
+generation of ATM functions. Blood 2013;121(20):4036­45. [14] Abraham RT. PI 3-kinase related kinases: `big' players in stress-induced
+signaling pathways. DNA Repair (Amst) 2004;3:883­7. [15] Derheimer FA, Kastan MB. Multiple roles in monitoring and maintaining DNA
+integrity. FEBS Lett 2010;584:3675­81. [16] Shiloh Y, Ziv Y. The ATM protein kinase: regulating the cellular response to
+genotoxic stress, and more. Mol Cell Biol 2013;14:197­210. [17] Uziel T, Savitsky K, Platzer M, Ziv Y, Helbitz T, Nehls M, et al. Genomic
+organization of the ATM gene. Genomics 1996;33:317­20. [18] Platzer M, Rotman G, Bauer D, Uziel T, Savitsky K, Bar-Shira A, et al. Ataxia
+telangiectasia locus: sequence analysis of 184 kb of human genomic DNA containing the entire ATM gene. Genome Res 1997;7:592­605. [19] Gatti RA, Berkel I, Boder E, Braedt G, Charmley P, Concannon P, et al. Localization of an ataxia telangiectasia gene to chromosome 11q22­23. Nature 1988;336:577­80. [20] Shiloh Y, Kastan MB. ATM: genome stability, neuronal development, and cancer cross paths. Adv Cancer Res 2001;83:209­54. [21] Angele S, Hall J. The ATM gene and breast cancer: is it really a risk factor? Mutat Res 2000;462:167­78. [22] Negrini M, Rasio D, Hampton GM, Sabbioni S, Rattan S, Carter SL, et al. Definition and refinement of chromosome 11 regions of loss of heterozygosity in breast cancer: identification of a new region at 11q23.3. Cancer Res 1995;55:3003­7. [23] Laake K, Launonen V, Niederacher D, Gudlaugsdottir S, Seitz S, Rio P, et al. Loss of heterozygosity at 11q23.1 and survival in breast cancer: results of a large European study. Breast Cancer Somatic Genetics Consortium. Genes Chromosomes Cancer 1999;25:212­21. [24] Hampton GM, Mannermaa A, Winqvist R, Alavaikko M, Blanco G, Taskinen PJ, et al. Loss of heterozygosity in sporadic human breast carcinoma: a common region between 11q22 and 11q23.3. Cancer Res 1994;54:4586­9. [25] Carter SL, Negrini M, Baffa R, Gillum DR, Rosenberg AL, Schwartz GF, et al. Loss of heterozygosity at 11q22-q23 in breast cancer. Cancer Res 1994;54:6270­4. [26] Broeks A, Braaf LM, Huseinovic A, Schmidt MK, Russell NS, van Leeuwen FE, Hogervorst FB, van't Veer LJ. The spectrum of ATM missense variants and their contribution to contralateral breast cancer. Breast Cancer Res Treat 2008; 107:243­248. [27] Pippard EC, Hall AJ, Barker DJ, Bridges BA. Cancer in homozygotes and heterozygotes of ataxia-telangiectasia and xeroderma pigmentosum in Britain. Cancer Res 1988;48:2929­32. [28] Swift M, Chase C, Morrell D. Cancer predisposition of Ataxia-Telangiectasia heterozygotes. Cancer Genet Cytogenet 1990;46:21­7. [29] Thompson D, Duedal S, Kirner J, McGuffog L, Last J, Reiman A, et al. Cancer risks and mortality in heterozygous ATM mutation carriers. J Natl Cancer Inst 2005;97:813­22. [30] Hall J. The Ataxia-telangiectasia mutated gene and breast cancer: gene expression profiles and sequence variants. Cancer Lett 2005;227:105­14.
+
+334
+
+C. Marouf et al. / The Egyptian Journal of Medical Human Genetics 18 (2017) 329­334
+
+[31] Renwick A, Thompson D, Seal S, Kelly P, Chagtai T, Ahmed M, et al. ATM mutations that cause ataxia-telangiectasia are breast cancer susceptibility alleles. Nat Genet 2006;38:873­5.
+[32] Vorechovsky I, Rasio D, Luo LP, et al. The ATM gene and susceptibility to breast cancer: analysis of 38 breast tumors reveals no evidence for mutation. Cancer Res 1996;56:2726­32.
+[33] FitzGerald MG, Bean JM, Hegde SR, et al. Heterozygous ATM mutations do not contribute to early onset of breast cancer. Nat Genet 1997;15:307­10.
+[34] Swift M, Reitnauer PJ, Morrell D, Chase CL. Breast and other cancers in families with ataxia-telangiectasia. N Engl J Med 1987;316:1289­94.
+[35] Swift M, Morrell D, Massey RB, Chase CL. Incidence of cancer in 161 families affected by ataxia-telangiectasia. N Engl J Med 1991;325:1831­6.
+[36] Inskip HM, Kinlen LJ, Taylor AM, Woods CG, Arlett CF. Risk of breast cancer and other cancers in heterozygotes for ataxia-telangiectasia. Br J Cancer 1999;79:1304­7.
+[37] Athma P, Rappaport R, Swift M. Molecular genotyping shows that ataxiatelangiectasia heterozygotes are predisposed to breast cancer. Cancer Genet Cytogenet 1996;92:130­4.
+[38] Broeks A, Urbanus JH, Floore AN, Dahler EC, Klijn JG, Rutgers EJ, et al. ATMheterozygous germline mutations contribute to breast cancer-susceptibility. Am J Hum Genet 2000;66:494­500.
+[39] Milne RL. Variants in the ATM gene and breast cancer susceptibility. Genome Med 2009;1.
+[40] Savitsky K, Sfez S, Tagle DA, Ziv Y, Sartiel A, Collins FS, et al. The complete sequence of the coding region of the ATM gene reveals similarity to cell cycle regulators in different species. Hum Mol Genet 1995;4:2025­32.
+[41] Fletcher O, Johnson N, dos Santos Silva I, Orr N, Ashworth A, Nevanlinna H, et al. Missense variants in ATM in 26,101 breast cancer cases and 29,842 controls. Cancer Epidemiol Biomarkers Prev 2010;19:2143­51.
+[42] Izatt L, Greenman J, Hodgson S, Ellis D, Watts S, Scott G, et al. Identification of germline missense mutations and rare allelic variants in the ATM gene in early onset breast cancer. Genes Chromosomes Cancer 1999;26:286­94.
+[43] Teraoka SN, Malone KE, Doody DR, Suter NM, Ostrander EA, Daling JR, et al. Increased frequency of ATM mutations in breast carcinoma patients with early onset disease and positive family history. Cancer 2001;92:479­87.
+[44] Dork T, Bendix R, Bremer M, Rades D, Klopper K, Nicke M, et al. Spectrum of ATM gene mutations in a hospital-based series of unselected breast cancer patients. Cancer Res 2001;61:7608­15.
+[45] Sommer SS, Jiang Z, Feng J, Buzin CH, Zheng J, Longmate J, et al. ATM missense mutations are frequent in patients with breast cancer. Cancer Genet Cytogenet 2003;145:115­20.
+[46] Thorstenson YR, Roxas A, Kroiss R, Jenkins MA, Yu KM, Bachrich T, et al. Contributions of ATM mutations to familial breast and ovarian cancer. Cancer Res 2003;63:3325­33.
+[47] Bernstein JL, Teraoka S, Southey MC, Jenkins MA, Andrulis IL, Knight JA, et al. Population-based estimates of breast cancer risks associated with ATM gene variants c.7271T > G and c.1066-6T > G (IVS10-6T > G) from the Breast Cancer Family Registry. Hum Mutat 2006;27:1122­8.
+[48] Stankovic T, Kidd A, Sutcliffe A, McGuire G, Robinson P, Weber P, et al. ATM mutations and phenotypes in ataxia-telangiectasia families in the British Isles: expression of mutant ATM and the risk of leukemia, lymphoma, and breast cancer. Am J Hum Genet 1998;62:334­45.
+[49] Thompson D, Antoniou AC, Jenkins M, Marsh A, Chen X, Wayne T, et al. KConFab Investigators. Two atm variants and breast cancer risk. Hum Mutat 2005;25(6):594­5.
+[50] Oldenburg RA, Meijers-Heijboer H, Cornelisse CJ, Devilee P. Genetic susceptibility for breast cancer: how many more genes to be found? Crit Rev Oncol Hematol 2007;63(2):125­49.
+[51] Tavtigian SV, Oefner PJ, Babikyan D, Hartmann A, Healey S, Le Calvez-Kelm F, et al. Rare, evolutionarily unlikely missense substitutions in atm confer increased risk of breast cancer. Am J Hum Genet 2009;85(4):427­46.
+[52] Chenevix-Trench G, Spurdle AB, Gatei M, Kelly H, Marsh A, Chen X, et al. Dominant negative ATM mutations in breast cancer families. J Natl Cancer Inst 2002;94:205­15.
+[53] Miller SA, Dykes DD, Polesky HF. A simple salting out procedure for extracting DNA from human nucleated cells. Nucl Acids Res 1988;16:1215.
+[54] Tazzite A, Jouhadi H, Nadifi S, Aretini P, Falaschi E, Collavoli A, et al. Caligo MA (2012) BRCA1 and BRCA2 germline mutations in Moroccan breast/ ovarian cancer families: novel mutations and unclassified variants. Gynecol Oncol 2012;125:687­92.
+[55] Bishop DT, Hopper J. AT-tributable risks? [news]. Nat Genet 1997;15:226. [56] Gatti RA, Tward A, Concannon P. Cancer risk in ATM heterozygotes: a model of
+phenotypic and mechanistic differences between missense and truncating mutations. Mol Genet Metab 1999;68:419­23.
+
+[57] Vorechovsky I, Luo L, Lindblom A, Negrini M, Webster AD, Croce CM, et al. ATM mutations in cancer families. Cancer Res 1996;56:4130­3.
+[58] Meyn MS. Ataxia-telangiectasia, cancer and the pathobiology of the ATM gene. Clin Genet 1999;55:289­304.
+[59] Bebb DG, Yu Z, Chen J, Telatar M, Gelmon K, Phillips N, et al. Absence of mutations in the ATM gene in forty-seven cases of sporadic breast cancer. Br J Cancer 1999;80:1979­81.
+[60] Borresen A-L, Andersen TI, Tretli S, Heiberg A, Moller P. Breast cancer and other cancers in Norwegian families with Ataxia Telangiectasia genes. Genes Chromosomes Cancer 1990;2:339­40.
+[61] Janin N, Andrieu N, Ossian K, Lauge A, Croquette MF, Griscelli C, et al. Breast cancer risk in ataxia telangiectasia (AT) heterozygotes: haplotype study in French AT families. Br J Cancer 1999;80:1042­5.
+[62] Olsen JH, Hahnemann JM, Borresen-Dale AL, Brondum-Nielsen K, Hammarstrom L, Kleinerman R, et al. Cancer in patients with ataxiatelangiectasia and in their relatives in the Nordic countries. J Natl Cancer Inst 2001;93:121­7.
+[63] Thompson D, Duedal S, Kirner J, McGuffog L, Last J, Reiman A, et al. Cancer risks and mortality in heterozygous ATM mutation carriers. J Natl Cancer Inst 2005;97:813­22.
+[64] Geoffroy-Perez B, Janin N, Ossian K, Lauge A, Croquette MF, Griscelli C, et al. Cancer risk in heterozygotes for ataxia-telangiectasia. Int J Cancer 2001;93:288­93.
+[65] Bretsky P, Haiman CA, Gilad S, et al. The relationship between twenty missense ATMvariants and breast cancer risk: the multiethnic cohort. Cancer Epidemiol Biomar Prev 2003;12:733­8.
+[66] Tamimi RM, Hankinson SE, Spiegelman D, Kraft P, Colditz GA, Hunter DJ. Common ataxia telangiectasia mutated haplotypes and risk of breast cancer: a nested case-control study. Breast Cancer Res 2004;6:R416­22.
+[67] Szabo CI, Schutte M, Broeks A, et al. Are ATM mutations 7271T ? G and IVS106T ? G really high-risk breast cancer-susceptibility alleles? Cancer Res 2004;64:840­3.
+[68] Ng PC, Henikoff S. Accounting for human polymorphisms predicted to affect protein function. Genome Res 2002;12:436­46.
+[69] Sunyaev S, Ramensky V, Koch I, Lathe III W, Kondrashov AS, Bork P. Prediction of deleterious human alleles. Hum Mol Genet 2001;10:591­7.
+[70] Bernstein JL, Bernstein L, Thompson WD, Lynch CF, Malone KE, Teitelbaum SL, et al. Br J Cancer 2003;89:1513­6.
+[71] Dork T, Nicke M, Klopper K, Bendix R, Stuhrmann M, Bremer M, et al. Frequent splicing mutation of the ATM gene in breast cancer. Am J Hum Genet 1999;65 (suppl):A124.
+[72] Broeks A, de Klein A, Floore AN, Muijtjens M, Kleijer WJ, Jaspers NG, et al. ATM germline mutations in classical ataxia-telangiectasia patients in the Dutch population. Hum Mut 1998;12:330­7.
+[73] Sandoval N, Platzer M, Rosenthal A, Dörk T, Bendix R, Skawran B, et al. Characterization of ATM gene mutations in 66 ataxia-telangiectasia families. Hum Mol Genet 1999;8:69­79.
+[74] Antoniou AC, Pharoah PD, McMullan G, Day NE, Ponder BA, Easton D. Evidence for further breast cancer susceptibility genes in addition to BRCA1 and BRCA2 in a population-based study. Genet Epidemiol 2001;21:1­18.
+[75] Editorial. Freely associating. Nat. Genet. 1999; 22: 1­2. [76] Dahlman I, Eaves IA, Kosoy R, Morrison VA, Heward J, Gough SC, et al.
+Parameters for reliable results in genetic association studies in common disease. Nat Genet 2002;30:149­50. [77] Finkel E. Consortium piecing together role of ATM gene in breast cancer. J Natl Cancer Inst 2002;94:158­9. [78] Concannon P. ATM heterozygosity and cancer risk. Nat Genet 2002;32:89­90. [79] Lindeman GJ, Hiew M, Visvader JE, Leary J, Field M, Gaff CL, et al. Frequency of the ATM IVS10-6T ? G variant in Australian multiple-case breast cancer families. Breast Cancer Res 2004;6:R401­7. [80] Sommer SS, Buzin CH, Jung M, Zheng J, Liu Q, Jeong SJ, et al. Elevated frequency of ATM gene missense mutations in breast cancer relative to ethnically matched controls. Cancer Genet Cytogenet 2002;134:25­32. [81] Lei H, Pospisilova D, Lindblom A, Vorechovsky I. Dominant negative ATM mutations in breast cancer families. J Natl Cancer Inst 2002;94:951­2. [82] Broeks A, Urbanus JH, de Knijff P, Devilee P, Nicke M, Klöpper K, et al. IVS106T > G, an ancient ATM germline mutation linked with breast cancer. Hum Mutat 2003;21:521­8. [83] Soukupova J, Dundr P, Kleibl Z, Pohlreich P. Contribution of mutations in ATM to breast cancer development in the Czech population. Oncol Rep 2008;19 (6):1505­10.
+
+

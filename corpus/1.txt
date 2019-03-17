@@ -1,0 +1,756 @@
+Pathology (June 2017) 49(4), pp. 363­370
+ANATOMICAL PATHOLOGY
+Non-BRCA familial breast cancer: review of reported pathology and molecular findings
+MICHAEL G. KEENEY1, FERGUS J. COUCH2, DANIEL W. VISSCHER1 AND NORALANE M. LINDOR3
+1Department of Laboratory Medicine and Pathology, 2Department of Experimental Pathology, Mayo Clinic, Rochester, Minnesota, and 3Department of Health Sciences Research, Mayo Clinic, Scottsdale, Arizona, United States
+
+Summary The majority of women evaluated for a clinical concern of possible hereditary breast cancer syndromes have no identified pathogenic variants in genes predisposing them to breast cancer. Non-BRCA1- or BRCA2-related familial breast cancer, also called `BRCAX', thus comprises a sizeable proportion of familial breast cancer but it is poorly understood. In this study, we reviewed 14 studies on histopathology and molecular studies of BRCAX to determine if there were differences between `sporadic' breast cancers and compared to cancers arising in women harbouring variants in known cancer predisposition genes. Across available literature, there was inconsistency on inclusion and exclusion criteria, reported parameters, and use of controls. Cohorts were small, and while several studies reported findings that appeared to distinguish the BRCAX cases from sporadic and/or gene-positive controls, no findings were reported in more than one study. To determine whether the BRCAX families might still contain important genetic subsets awaiting discovery will require prospective ascertainment of a large number of women with familial breast cancer who are screened for all currently established predisposition genes, whose tumours are assessed for multiple parameters in a uniform manner, and in which controls (BRCA1/2+ and non-familial `sporadic' cases) are collected from the same population.
+Key words: BRCAX; non-BRCA; breast pathology; oestrogen receptor; HER2-neu; basal; luminal; familial; family history.
+Received 20 January, revised 7 March, accepted 16 March 2017 Available online 24 April 2017
+INTRODUCTION
+Prevalence and significance of family history in understanding breast cancer aetiology and risk
+Breast cancer is the most commonly diagnosed non-skin cancer among American women. For studies of aetiology and prognosis, breast cancer can be categorised in a number of ways, such as by histology, stage, age at diagnosis, and expression of tumour markers. Family history is also widely recognised as a risk factor for breast cancer within families.1­3 Relative risk for breast cancer is doubled if one has a parent or sibling with breast cancer; and quadruples if one has
+
+both a parent and sibling with breast cancer, with risk increasing as age at diagnosis of the affected relative decreases.4,5 In a study of 1019 respondents of a random telephone survey of adults aged 25­64 years conducted in the USA in 2001, prevalence estimates for breast cancer among any first-degree relative was 10.9% [95% confidence interval (CI) 8.8­13.3], any second-degree relative was 17.9% (95% CI 15.4­20.1), and for either was 26.4% (95% CI 23.3­29.8).6 The same researchers also explored the accuracy of self-reported family history, as that is generally how family history is captured clinically.6 For breast cancer, the positive predictive value was about 61% and negative predictive value was more than 95%, indicating that under reporting, not over reporting, was the important factor affecting accuracy. As expected, increasing age was associated with higher prevalence of breast cancer in first-degree relatives. These results were consistent with multiple other similar studies.7,8
+In the early 1990s, studies of families with high rates of breast cancer at younger than average ages led to the discovery of the genes BRCA19 and BRCA2.10 As these two genes did not explain the majority of families with strong breast cancer histories, it was anticipated that a `BRCA3' would also be discovered rapidly. Two decades later, the search is ongoing. A number of other genes that predispose a person to breast cancer have been discovered11­13 but pathogenic variants in all of these are rare or of much lower penetrance. With the adoption of next-generation cancer gene panels, multiple studies report that mutations in BRCA1 or BRCA2 (hereafter referred to as BRCA1/2 in this review) still account for the majority of diagnoses made amongst women referred for testing (Table 1). Among individuals seeking clinical evaluation for hereditary breast cancer, pathogenic or suspected pathogenic variants were found in BRCA1/2 in only 9­29%. Of the 20­40 other predisposition genes on hereditary cancer testing panels, 4­11% of patients had a pathogenic or suspected pathogenic variant in one of the nonBRCA1/2 genes. Most notable was that 64­86.5% of women evaluated clinically for hereditary breast cancer had no gene mutations found that explained their presentation.14
+Histopathology in breast cancers arising in carriers of pathogenic variants in known genes
+BRCA1-related breast cancers have been extensively studied and are known to have a profile that is different from the
+
+Print ISSN 0031-3025/Online ISSN 1465-3931 © 2017 Royal College of Pathologists of Australasia. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). DOI: http://dx.doi.org/10.1016/j.pathol.2017.03.002
+
+364 KEENEY et al.
+
+Table 1 Description of the inclusion criteria and cohort size in genetic studies of familial breast cancer
+
+Reference
+
+13
+
+Cohort 111
+
+Study description Number of individuals Number of genes tested Percentage of germline mutations
+No pathogenic or suspected pathogenic mutations found
+BRCA1/2 vs all others BRCA1 or BRCA2
+
+Women referred for clinical BRCA1/2 testing 2002­2012
+198 42 64.10% 29% vs 11.4% 29%
+
+Referred for commercial BRCA1/2 testing at Myriad Genetics Laboratory due to breast cancer 11/2012 ­ 4/2013
+1781 individuals (1750 women) 25 86.50% 9.3% vs 3.9% 9.30%
+
+Cohort 211 BRCA1/2 negative with personal
+history of breast cancer and family history of breast ± ovarian cancer referred for genetic testing 1998 ­ 2013 377 23 96.30% N/A N/A
+
+12
+BRCA1/2 negative with early onset breast cancer (aged <40 years). Negative personal and family history of ovarian cancer
+278 22 89% N/A N/A
+
+Pathology (2017), 49(4), June
+average breast cancer.15,16 The majority of BRCA1-related breast cancers are invasive ductal adenocarcinomas (74%); however, medullary-like carcinomas are over-represented (~13%) compared to the general population (~2%). Around 75% of BRCA1-related breast cancers are oestrogen receptor (ER) negative, often poorly differentiated high grade tumours with high mitotic counts, and with other features indicating an aggressive phenotype (decreased tubule formation, higher degree of pleiomorphism, and high frequency of lymphovascular invasion). The immunophenotype is also notable for low expression of progesterone receptors, as well as human epidermal growth receptor 2 (HER-2/neu) compared to nonBRCA1 cancers, hence there is a much higher rate of being `triple negative'/basal-like compared to non-BRCA1-related cancers (69% versus 15­20%).
+The histopathology of BRCA2-related cancers, on the other hand, is very similar to non-BRCA cancers. Most (76%) are invasive ductal, with more lobular, tubular, and cribriform types compared to sporadic cancers. Grade is more frequently moderate or poorly differentiated. The immunophenotype for hormone receptors and HER-2/neu is similar to sporadic nonBRCA-related cancers: luminal type with over expression of oestrogen and progesterone receptors. Only 16% are triple negative.
+Knowledge of the histopathological profile of breast cancers arising in carriers of pathogenic variants in other genes is far more limited and incomplete. Published data are shown for breast cancers among carriers of germline pathogenic variants in ATM, BARD1, BLM, CDH1, CHEK2, MUTYH, PALB2, PTEN, RAD51C, RAD51D, and TP53 (Supplementary Table 1, Appendix A) and for the DNA mismatch repair genes, MLH1, MSH2, MSH6, and PMS2 (Supplementary Table 2, Appendix A). No details of cancers in MRE11, RAD50, SLX4, and XRCC2 have yet been published. Across these genes, no clear deviations from sporadic cancers were evident, with three possible exceptions. There is reportedly an increased number of lobular breast cancers in CDH1 carriers [44­50% in three small series (Supplementary Table 1, Appendix A) compared to 21­22% in Surveillance Epidemiology and End Results (SEER) registries (Table 2)]; TP53 carriers tended to have high grade tumours [81% grade 3 (Supplementary Table 1, Appendix A) compared to 33­50% in SEER registries (Table 3)]; and PTEN carriers were mostly ductal carcinomas but also notable for presence of apocrine tumours and a variety of unusual concomitant benign breast findings qualitatively described including multiple hamartomas, hyaline deposition in lobules, stroma and nodules, adenosis, and intraductal papillomatosis.17,18
+However, it remains unclear what proportion of breast cancer cases that are diagnosed at young ages and/or with a strong family history represent a random clustering of a common tumour due to shared multifactorial aetiology (low penetrance polygenic plus shared environmental factors) versus being due to undetected variants affecting moderately or highly penetrant known genes or genes yet awaiting discovery. In 1996, one model suggested that clustering of three first-degree relatives with breast cancer under age 70 years was much more likely to be due to a high penetrance gene,19 though a more current understanding of `sporadic' breast cancer now includes appreciation that genetic risk is likely a polygenic continuum, not a binary issue. These apparently high-risk non-BRCA1/2 families are sometimes called `BRCAX' for having a suspected but unknown BRCA1/2-
+
+NON-BRCA FAMILIAL BREAST CANCER 365
+Table 2 Relationship between breast cancer histology and tumour stage, ER/PR status, and grade among women diagnosed either aged 50­89 years or aged 30­49 years in the general population for purposes of comparison with the BRCAX studiesa,48
+
+SEER Data48
+
+Percentage ER neg Percentage PR neg Stage I Stage II Stage III/IV Grade 1 or 2 Grade 3 Grade 4
+
+Women diagnosed aged 50­89 years
+
+Ductal (n = 74,798)
+
+22%
+
+Lobular (n = 9387)
+
+8%
+
+Ductal/Lobular (n = 7359)
+
+8%
+
+Mucinous (n = 2730)
+
+5%
+
+Women diagnosed aged 30­49 years
+
+Ductal (n = 27,665)
+
+34%
+
+Lobular (n = 1888)
+
+11%
+
+Ductal/Lobular (n = 2277)
+
+13%
+
+Mucinous (n = 518)
+
+9%
+
+33%
+
+53%
+
+38%
+
+9%
+
+62%
+
+36%
+
+2%
+
+25%
+
+44%
+
+43%
+
+13%
+
+76%
+
+21%
+
+3%
+
+22%
+
+48%
+
+44%
+
+8%
+
+72%
+
+26%
+
+2%
+
+17%
+
+68%
+
+28%
+
+4%
+
+93%
+
+6%
+
+1%
+
+38%
+
+40%
+
+50%
+
+10%
+
+47%
+
+50%
+
+3%
+
+15%
+
+36%
+
+48%
+
+16%
+
+74%
+
+22%
+
+3%
+
+17%
+
+36%
+
+52%
+
+12%
+
+65%
+
+32%
+
+3%
+
+19%
+
+61%
+
+35%
+
+4%
+
+86%
+
+13%
+
+1%
+
+ER, oestrogen receptor; PR, progesterone receptor a Original data showed additional rarer histological subtypes as well.
+
+like genetic causation. We were interested in examining the published literature on such cohorts to evaluate the current evidence for or against these families being different from or the same as sporadic non-familial breast cancers based upon the histopathological or molecular characteristics of the breast cancers that occurred.
+METHODS
+A literature search using PubMed and Medline was conducted including years 2000­2015, using a variety of search terms including familial breast cancer, BRCAX, non-BRCA, and hereditary breast cancer. References cited in these papers were culled for additional sources. Papers published in English were abstracted when they contained clinical, pathological, or molecular findings on a series of cases (any size) that had a family history of breast cancer but had tested negative for germline BRCA1/2 gene mutations (and other genes, if additional testing was conducted). Information was abstracted on the family history inclusion criteria for each study, the years that patients were ascertained, the method used to exclude BRCA1/2 mutations, country of origin, ages of cases at diagnosis, and type of controls, when applicable. We then recorded the results of the laboratory studies reported on the non-BRCA1/2 cohort. As described herein, the absence of uniform inclusion criteria across studies renders consideration of a meta-analysis infeasible.
+RESULTS
+Fourteen studies were identified that met our review criteria. Family history criteria varied across the studies. For familial clustering of breast cancer cases in which no BRCA1/2 mutation was detected, a number of studies used the term BRCAX or BRCAx to encompass these20­34 while others used descriptive terms like non-BRCA families.23,35­45 There was overlap but no uniformity in how family history was defined, and the level of detail provided varied from none at all (patients referred for BRCA testing, not otherwise specified) to well-defined criteria (Table 3; Supplementary Table 3, Appendix A). For those providing criteria, elements generally included some reference to young onset diagnosis in the family and having one or more first- or second-degree relatives with breast cancer. In general, these are the types of families that have been recognised as warranting evaluation for BRCA1/2 mutations, based on known characteristics of hereditary cancers, as predicted by the Knudson two-hit hypothesis of cancer predisposition.46
+Fourteen papers were identified that contained some pathology data on the non-BRCA1/2 families which, for simplicity, will hereafter be called BRCAX families.20,21,26­30,32,34,35,37,38,45,47 The inclusion criteria
+
+varied as noted above. Studies included populations from Northern and Southern Europe, Ashkenazim, Australia, and the USA. Years of ascertainment were not provided for 50% of the studies; for those that did provide this information, the range was from 1981 to 2012. All but one study37 was conducted retrospectively. The mean number of BRCAX cases included in these 13 studies was 80 (range 14­391), with only two studies with >200 cases, three studies with 100 to 200 cases, and the remainder below 100 cases. The mean ages at diagnosis of breast cancer in cases was notably younger than in the general population, being approximately age 50 years (range 35­57; not reported in three studies); menopausal status was not generally provided. BRCA1/2 mutations were sought by a variety of methods and in the years following approximately 2007 generally included analyses for large genomic rearrangements when described. The BRCAX cases were compared to both BRCA-mutation positive cases and to sporadic cases in four studies, to BRCA-mutation positive cases only in seven studies, to sporadic cases only in two studies, and no controls were reported in one study.
+Ten studies provided breast histology in BRCAX families: 56­86% were ductal carcinomas; 2­15% were lobular carcinomas; 0­17% were medullary carcinomas (Table 4). Table 5 shows comparable figures from a population-based series of 135,157 women with breast cancer per the SEER database of the National Cancer Institute from 1992 to 2001.48 Given the ranges across the BRCAX studies, it is not possible to state if these differ from the SEER numbers. Also, limitations of these types of comparisons need to be fully acknowledged. With the SEER data and with all the other studies, there is no information on the concordance of histological classification between pathologists and across different medical centres; therefore, the magnitude of possible misclassification cannot be estimated.
+Twelve studies reported on oestrogen and progesterone receptor status and of these, eight reported on HER2 status either determined by immunohistochemistry or by fluorescent in situ hybridisation. Across these studies, and not attempting to account for the difference in numbers across these studies, oestrogen receptor was negative in 14­40%; progesterone receptor was negative in 24­70%. HER2 expression was negative in 40­91%; triple negative status was only reported in three studies and was noted in 13.8­34% of cases. The Li et al.48 study provided numbers
+
+366 KEENEY et al.
+
+Pathology (2017), 49(4), June
+
+Table 3 Inclusion criteria, number of families, and age at first breast cancer diagnosis in published BRCAX (non-BRCA1/2 familial breast cancer) studies
+
+Reference
+
+Inclusion criteria of mutation-negative `BRCAX' cases studied
+
+47
+
+ Moderate to strong family history of breast cancer
+
+disease;
+
+ No BRCA1/2 mutations; and
+
+ Low probability of being attributable to BRCA1/2 per
+
+linkage studies
+
+Excluded families with ovarian cancer or male breast
+
+cancer as likely being BRCA-related
+
+34
+
+ Families with early-onset breast cancer (NOS), male
+
+breast cancer, breast and ovarian cancer in same
+
+family; or
+
+ An individual with both breast and ovarian cancer
+
+29
+
+ Eight families with 2­3 breast cancer cases per
+
+family studied
+
+Eligibility criteria not described
+
+45
+
+ Females with early breast cancer treated with breast
+
+conservation surgery; or
+
+ Genetic testing done selectively on females with two
+
+first-degree relatives with cancer, one of which was
+
+diagnosed before age 41 years or ovarian cancer at
+
+any age; or
+
+ At least three first- or second-degree relatives from
+
+same lineage with invasive breast or ovarian cancer at
+
+any age
+
+28
+
+ Eighteen breast cancer cases from 18 families with at
+
+least three breast or ovarian cancer cases in first- or
+
+second-degree relatives
+
+32
+
+ Families with breast cancer meeting kConFab a
+
+Category 1 and Category 1B criteria
+
+21
+
+ Females with breast cancer under age 36 years, or
+
+ Females with breast plus ovarian cancer at any age; or
+
+ Males with breast cancer at any age, independent of
+
+family history; or
+
+ Three or more first-degree relatives (or second-degree
+
+relatives if in paternal lineage) affected with breast or
+
+ovarian cancer at any age; or
+
+ Two first-degree relatives (or second-degree relatives
+
+if in paternal lineage) with:
+
+ breast cancer under age 50 years; or
+
+ breast cancer under age 50 years plus breast
+
+cancer bilateral at any age; or
+
+ breast cancer under age 50 years plus ovarian
+
+cancer at any age; or
+
+ breast cancer under age 50 years plus male breast
+
+cancer at any age plus ovarian cancer at any age
+
+27
+
+ Families defined by kConFaba
+
+38
+
+ Females with breast cancer having clinical BRCA
+
+testing.
+
+Family history criteria not described
+
+20
+
+ Non-BRCA1/2 familial breast cancers not otherwise
+
+defined.
+
+30
+
+ Families with three or more female breast cancers,
+
+one under age 50 years; or
+
+ Families with female breast plus ovarian cancer and at
+
+least one male breast cancer
+
+26
+
+ Proband with breast cancer from family with three or
+
+more females with breast cancer; or
+
+ Two first-degree relatives with female breast cancer,
+
+one under the age of 50 years; or
+
+ One case of female breast cancer plus ovarian cancer,
+
+bilateral breast cancer, or male breast cancer
+
+35
+
+ Females with breast cancer seen clinically for BRCA
+
+testing
+
+No information on criteria for referral for clinical
+
+testing.
+
+37
+
+ Females with breast cancer diagnosed under age 40
+
+years: 47% had a first-degree relative with breast or
+
+ovarian cancer; 39% had some family history not
+
+otherwise specified
+
+a kConFab criteria in Supplementary Table 3, Appendix A.
+
+Number of mutation-negative cases described 82
+55 17 107
+18 132 33
+14 151 209 50 14
+391 38
+
+Age at first diagnosis of breast cancer (range) for BRCAX group
+Not reported
+Mean 50 ± 12 years Median 57 years (range 36­79) Not reported
+Mean 46 years (range 32­70) Median 53 years (range 25­90) Median 44 years (no range reported)
+Not reported Mean 53 years (range 24­79) Mean 42 years (range 22­64) Mean 47 (no range reported) Median 49 (range 32­66)
+Median 44 (range 21­75) Median 35 (range 23­39)
+
+Table 4 Histopathology of breast cancers across published BRCAX (non-BRCA1/2 familial breast cancer) studies
+
+Reference
+
+47
+
+34
+
+29
+
+45
+
+37
+
+28
+
+35
+
+32
+
+26
+
+21
+
+20
+
+27
+
+30
+
+38
+
+Histopathology
+
+Ductal 8503: duct adenocarcinoma
+
+73% 86%
+
+65% 84.60%
+
+N/A
+
+56%
+
+N/A 65.90% N/A 82% 88% 79%
+
+N/A 78%
+
+Medullary 8513:
+
+1% 4%
+
+medullary carcinoma,
+
+NOS
+
+6% 1.10%
+
+N/A
+
+17%
+
+N/A 2.30% N/A 0
+
+0
+
+0
+
+N/A 0
+
+Mucinous or colloid 8483: mucinproducing adenocarcinoma
+
+0% 4%
+
+6% 0
+
+N/A
+
+0
+
+N/A 1.50% N/A 0
+
+0
+
+0
+
+N/A 0
+
+Lobular 8523: lobular carcinoma
+
+15% 2%
+
+6% 11%
+
+N/A
+
+5%
+
+N/A 10.60% N/A 3% 2% 7%
+
+N/A 11%
+
+Other or mixed
+
+9% 0
+
+17% 1.10%
+
+N/A
+
+22%
+
+N/A 0.80% N/A 15% 10% 14%
+
+N/A 12%
+
+Receptor % triple negative
+
+N/A N/A
+
+N/A N/A
+
+34%
+
+N/A
+
+13% N/A
+
+N/A N/A N/A 2/8 (25%) N/A N/A
+
+Percentage ER negative N/A 37%
+
+35% 27.50%
+
+34%
+
+23% 31.00% 17% 30% 29% 3/11 (27%) 40% 14%
+
+Percentage PR negative N/A 32%
+
+41% 21.70%
+
+46%
+
+37% 35.60% 42% 36% N/A 7/10 (70%) 44% 24%
+
+Percentage HER-2/neu (IHC or FISH) positive
+
+N/A N/A
+
+N/A N/A
+
+60%
+
+N/A
+
+14% N/A
+
+20% 9% 22% 5/9 (56%) 20% 22%
+
+T stage and N stage (M stage not proved for any study)
+
+T stage
+
+N/A 4% Tis; 67% T1, T2; N/A 79.4% T1, T2;
+
+2% T3, T4
+
+0% T3
+
+47% Tis, T1;
+
+17% T1; 28% T2; N/A N/A
+
+53% T2, T3, T4 56% T3
+
+N/A N/A N/A N/A
+
+N/A 64% T1; 30% T2; 5% T3; 1% T4
+
+N stage
+
+N/A 55% N0; 45% N1
+
+N/A 84% N0; 16% N1 NA
+
+50% N0; 50% N1 N/A N/A
+
+N/A N/A N/A N/A
+
+N/A 64% N0; 16% N1; 8% N2; 4% N3
+
+Nuclear grade
+
+1
+
+27% 48%
+
+13% 76%
+
+56%
+
+0%
+
+13% 25.80% N/A 12% 10% 0%
+
+55% 19%
+
+2
+
+50%
+
+40%
+
+44%
+
+49% 37.90% N/A 64% 44% 54%
+
+21% 41%
+
+3
+
+23% 52%
+
+47% 23.90%
+
+44%
+
+56%
+
+38% 36.40% N/A 24% 46% 46%
+
+25% 37%
+
+ER, oestrogen receptor; FISH, fluorescent in situ hybridisation; IHC, immunohistochemistry; PR, progesterone receptor.
+
+NON-BRCA FAMILIAL BREAST CANCER 367
+
+368 KEENEY et al.
+Table 5 SEER data from 1992­2001 showed the distribution of histological types of breast cancer in the general population48
+
+Pathology (2017), 49(4), June
+
+Histology
+
+Women aged 30­89 years (n = 139,310)
+
+Women diagnosed aged 50­89 years (n = 100,028)
+
+Women diagnosed aged 30­49 years (n = 35,129)
+
+Infiltrating ductal Invasive lobular Ductal/Lobular Mucinous (colloid) Comedo Inflammatory Tubular Medullary Papillary
+
+73.60% 8.10% 6.90% 2.30% 1.60% 1.50% 1.40% 1.20% 0.40%
+
+74.80% 9.40% 7.40% 2.70% 1.40% 1.40% 1.60% 0.90% 0.50%
+
+78.70% 5.40% 6.50% 1.50% 2.40% 2.00% 1.10% 2.10% 0.30%
+
+on oestrogen receptor, progesterone receptor and HER2 expression from SEER, correlated with histology, which could not be similarly collated from the BRCAX studies (Table 2).
+Nuclear grade was reported in 13 studies, with grades 1 and 2 being combined in three of the ten studies. A range of 24­52% was reported to be Grade 3 out of three grades among the BRCAX studies. The Li SEER study used a 1­4 grade scale.48 TNM stage was reported in five BRCAX studies. The largest study35 reported that 28.4%, 45.8%, 24.8%, and 1% of non-BRCA cases were TNM stages I, II, III, and IV, respectively. The 25% TNM Stages III plus IV in this study were a higher TNM stage than either the older or younger SEER cases which had 4­13% and 4­16% range, respectively, across the four main histological types.48
+A variety of additional studies have been reported across families that broadly are defined as non-BRCA familial breast cancer or BRCAX. These are summarised in Supplementary Table 4 (Appendix A). Array comparative genomic hybridisation (CGH) has been reported in five different studies.25,26,28,29,42 Fernandez-Ramires et al.26 reported that a 21-gene expression signature could distinguish luminal A phenotypes for BRCA1 versus BRCAX versus sporadic tumours. Didraga et al.25 reported that the BRCAX cancer profiles were heterogeneous but a subset showed a gain of whole chromosome 22 (and 10 other loci) not seen in the three control groups which were from women with sporadic breast cancers, BRCA1- or BRCA2-mutated tumours. In addition, the chromosome 22-gain subgroup tended to run true in families and to have a distinctive pattern (with more ER negative and triple negative, and less TP53 positive) whereas the 22-loss group was indistinguishable from sporadic cancers. Waddell et al.42 were not able to distinguish BRCAX cancers from BRCA1 and BRCA2 but excellent correlation was noted with molecular subtypes (e.g., luminal, basal, etc.) between array CGH and expression data. Hedenfalk et al.29 reported being able to recognise two distinct subgroups among the BRCAX tumours with difference in alterations of 8q24, 21q22, and 17q21 and not mapping to known BRCA1/2 profiles. Gronwald et al.28 reported more gains among BRCAX than controls for chromosome 8q22-q24 (in 83% of 18 tumours compared with 39­69% of sporadic tumours reported), 19p, 19q, 20q11-q13; and more losses for 8p23-pter by CGH. Melchor et al.33 used 25 IHC markers to assign molecular subtypes and showed BRCAX had basal-like findings in 7.1%, ERBB2 in 14.3%, luminal B in 25%, luminal A in 46.5%, and unclassified in 7.1%. The 8q24 expression data29 and the
+
+reported 8q22-q24 chromosomal gain data28 may represent a recurrent phenomenon in BRCAX tumours but further work is needed to determine if these different technologies are measuring the same event.
+Four studies reported on TP53 expression by IHC in 4­64% of BRCAX breast cancers;21,30,34,37 e-cadherin expression was present in 91% (89% in BRCA1 and 100% in BRCA2);21 cyclin D1 was expressed in 36­56%21,30 compared with approximately 33% in unselected breast cancers;49,50 somatic hypermethylation of the BRCA1 promoter was seen in 42%30 compared with 59% among unselected breast cancers;51 and p21 was positive in 36.7% versus 18.4% sporadics.30 Honrado et al.30 also reported the following were expressed in BRCAX cancers in the same proportion as sporadic controls: Ki-67, BCL2, cyclins D3, E, A, and B1, p16, p27, Skp2, Rb, E2F2, CHEKs, Topo1ialpha, MDM2, CK5/6, CK8, vimentin, survivin, EGFR.
+Although not specifically addressed as BRCAX, several studies have concluded that among families with suspicion of hereditary breast cancer (based on ages, family history, variously defined), if BRCA1 and BRCA2 mutations have been ruled out, the risk for ovarian cancer does not seem to be elevated.52,53 For example, Ingham et al.53 studied the risk of ovarian cancer among 8,005 women from a breast cancer family history clinic in the UK. After identifying those with BRCA1/2 mutations, those remaining had a relative risk of 0.37 (95% CI 0.01­2.03). That is, BRCAX as a group does not seem to have excessive ovarian cancer. On the other hand, the tumour spectrum of 334 BRCAX-type families was investigated in Sweden and endometrial cancer risk was reported to be roughly double the expected, renewing speculation that breast-endometrial cancer might represent a new syndrome43 related to hormonal and reproductive risk factors shared by these two types of cancers.54
+The risk of contralateral breast cancer in BRCAX patients, as defined by the German Consortium for Hereditary Breast and Ovarian Cancer55 was compared to that of BRCA1 and BRCA2 by Rhiem et al.44 and reported overall as 17.2% (95% CI 14.5­19.9). For women with a first breast cancer diagnosed before age 40 years, the cumulative risk after 25 years was 28.4% (far less than for BRCA1/2) and for those diagnosed at age 50 years or later, the 25-year cumulative risk for contralateral breast cancer was 12.9%. Overall, these figures are similar to the risk in patients with sporadic breast cancers.
+Premalignant proliferative lesions were assessed by Adem et al.56 in the prophylactic mastectomy cohort at Mayo Clinic. BRCAX cases (n = 53) had no major difference in
+
+prevalence of precursor lesions. The neoplastic lesions in BRCA1/2 mutation carriers had higher MIB-1/Ki-67 proliferation-labelling studies compared to BRCAX cases and in sporadic controls.56
+A combined analysis of four genome-wide linkage screens, including 149 multiple-case breast cancer families (at least three cases per family diagnosed under age 60 years) reported that: `The highest LOD score obtained in any analysis of the combined data was 1.80 under the dominant model, in a region on chromosome 4 close to marker D4S392. Three further LOD scores over 1 were identified in the parametric analyses and two in the non-parametric analyses. A maximum LOD score of 2.40 was found on chromosome arm 2p in families with four or more cases of breast cancer diagnosed under age 50 years. The number of linkage peaks did not differ from the number expected by chance. These results suggest regions that may harbour novel breast cancer susceptibility genes. They also indicate that no single gene is likely to account for a large fraction of the familial aggregation of breast cancer that is not due to mutations in BRCA1 or BRCA2'.39
+DISCUSSION
+The majority of women with breast cancer who have a concerning family history for possible hereditary breast cancer are not found to have identifiable germline mutations in breast cancer predisposition genes. These `BRCAX families' are unexplained today. In the absence of an identifiable underlying genetic cause, clinical management and risk assessment for relatives relies on the family tree. In reviewing the available studies on BRCAX families it is important to note that prior studies screened for BRCA1 and BRCA2 but did not screen out those who had pathogenic variants in the rarer genes that now are included on clinical gene panels. Thus, some of the historic BRCAX families can likely be explained by the rare genes but panel testing continues to identify a very large group of women (64­96%) whose families still can be described as BRCAX (Table 1).
+Despite having a label or name, BRCAX is certainly not a syndrome or a homogeneous group. Enough studies have been conducted to know that there is not a major `BRCA3' gene out there awaiting discovery. BRCAX simply describes a group of unknowns (hence the `X'). There are many potential explanations for the existence BRCAX families. Some, maybe even most, may represent the chance clustering of what is a common tumour (breast cancer). Some families may have variants in known genes that because of their genomic location or nature were missed by current testing methods. Some families may be co-segregating extremely rare genes or not-yet-discovered breast cancer predisposition genes. Some families may have a high genetic burden of multiple low penetrance types of genes as defined by genome wide association studies which in aggregate result in multiple cases within one family. Familial epigenetic factors, perhaps due to shared environmental exposures, may also contribute to some families.
+BRCA1-related breast cancers have characteristic histopathological features which set them apart from sporadic breast cancers and from BRCA2-related breast cancers. We sought to learn if histopathology findings across multiple BRCAX studies might yield clues to aetiology or highlight important subsets for further study. The studies turned out to
+
+NON-BRCA FAMILIAL BREAST CANCER 369
+be very limited and of such different designs that interpretation of the findings was inconclusive. Several studies highlighted subtle clues that there may be subsets of familial breast cancer that are more than a simple chance aggregation of a common disease within some families. However, it is hard to know with certainty how much publication bias may be contributing to this impression (wherein positive findings are published and negative findings never see the light of day). None of the findings have been replicated, although two studies suggested some contribution from the 8q24 region.28,29
+The current body of literature is quite deficient on many fronts: all studies are retrospective, of modest size, with marked variability of inclusion criteria, lack replication of findings, lack adequate controls, and are composed of genetic testing limited to BRCA1/2 only. To better gauge whether the non-BRCA1/2 familial clusters might still contain important single gene subsets awaiting discovery will require much more study. What is needed is a prospectively ascertained cohort of women with breast cancer with collection of detailed family histories, who are screened for all currently known predisposition genes, whose tumours are assessed for multiple parameters in a uniform manner, in which controls (BRCA1/2+ and non-familial `sporadic' cases) are collected from the same population. Only with this sort of rigorous design can one hope to resolve if there exists a subset of families that reflect heretofore undiagnosed specific entities.
+Acknowledgements: We wish to thank Barbara J. Balgaard for her assistance in preparing this manuscript.
+APPENDIX A. SUPPLEMENTARY DATA Supplementary data related to this article can be found at http://dx.doi.org/10.1016/j.pathol.2017.03.002.
+Conflicts of interest and sources of funding: The authors state that there are no conflicts of interest to disclose.
+Address for correspondence: Noralane M. Lindor, MD, Mayo Clinic, 13400 East Shea Blvd, Scottsdale, AZ 85259, United States. E-mail: nlindor@mayo.edu
+References
+1. Dong C, Hemminki K. Modification of cancer risks in offspring by sibling and parental cancers from 2,112,616 nuclear families. Int J Cancer 2001; 92: 144­50.
+2. Poole CA, Byers T, Calle EE, et al. Influence of a family history of cancer within and across multiple sites on patterns of cancer mortality risk for women. Am J Epidemiol 1999; 149: 454­62.
+3. Kerber RA, O'Brien E. A cohort study of cancer risk in relation to family histories of cancer in the Utah population database. Cancer 2005; 103: 1906­15.
+4. Hemminki K, Sundquist J, Lorenzo Bermejo J. Familial risks for cancer as the basis for evidence-based clinical referral and counseling. Oncologist 2008; 13: 239­47.
+5. Slattery ML, Kerber RA. A comprehensive evaluation of family history and breast cancer risk. The Utah Population Database. JAMA 1993; 270: 1563 ­ 8.
+6. Mai PL, Garceau AO, Graubard BI, et al. Confirmation of family cancer history reported in a population-based survey. J Natl Cancer Inst 2011; 103: 788­97.
+7. Ramsey SD, Yoon P, Moonesinghe R, et al. Population-based study of the prevalence of family history of cancer: implications for cancer screening and prevention. Genet Med 2006; 8: 571­5.
+8. Hall IJ, Burke W, Coughlin S, et al. Population-based estimates of the prevalence of family history of cancer among women. Community Genet 2001; 4: 134­42.
+
+370 KEENEY et al.
+9. Miki Y, Swensen J, Shattuck-Eidens D, et al. A strong candidate for the breast and ovarian cancer susceptibility gene BRCA1. Science 1994; 266: 66­71.
+10. Wooster R, Neuhausen SL, Mangion J, et al. Localization of a breast cancer susceptibility gene, BRCA2, to chromosome 13q12-13. Science 1994; 265: 2088­90.
+11. Tung N, Battelli C, Allen B, et al. Frequency of mutations in individuals with breast cancer referred for BRCA1 and BRCA2 testing using next-generation sequencing with a 25-gene panel. Cancer 2015; 121: 25­33.
+12. Maxwell KN, Wubbenhorst B, D'Andrea K, et al. Prevalence of mutations in a panel of breast cancer susceptibility genes in BRCA1/2negative patients with early-onset breast cancer. Genet Med 2015; 17: 630 ­ 8.
+13. Kurian AW, Hare EE, Mills MA, et al. Clinical evaluation of a multiplegene sequencing panel for hereditary cancer risk assessment. J Clin Oncol 2014; 32: 2001­9.
+14. Hartmann LC, Lindor NM. The role of risk-reducing surgery in hereditary breast and ovarian cancer. N Engl J Med 2016; 374: 454­68.
+15. van der Groep P, van der Wall E, van Diest PJ. Pathology of hereditary breast cancer. Cell Oncol 2011; 34: 71­88.
+16. Mavaddat N, Barrowdale D, Andrulis IL, et al. Pathology of breast and ovarian cancers among BRCA1 and BRCA2 mutation carriers: results from the Consortium of Investigators of Modifiers of BRCA1/2 (CIMBA). Cancer Epidemiol Biomarkers Prev 2012; 21: 134­47.
+17. Schrager CA, Schneider D, Gruener AC, et al. Clinical and pathological features of breast disease in Cowden's syndrome: an underrecognized syndrome with an increased risk of breast cancer. Hum Pathol 1998; 29: 47 ­ 53.
+18. Schrager CA, Schneider D, Gruener AC, et al. Similarities of cutaneous and breast pathology in Cowden's Syndrome. Exp Dermatol 1998; 7: 380 ­ 90.
+19. Peto J, Easton DF, Matthews FE, et al. Cancer mortality in relatives of women with breast cancer: the OPCS Study. Office of Population Censuses and Surveys. Int J Cancer 1996; 65: 275­83.
+20. Aloraifi F, Alshehhi M, McDevitt T, et al. Phenotypic analysis of familial breast cancer: comparison of BRCAx tumors with BRCA1-, BRCA2-carriers and non-familial breast cancer. Eur J Surg Oncol 2015; 41: 641­6.
+21. Colombo M, Giarola M, Mariani L, et al. Cyclin D1 expression analysis in familial breast cancers may discriminate BRCAX from BRCA2linked cases. Mod Pathol 2008; 21: 1262­70.
+22. Da Silva L, Lakhani SR. Pathology of hereditary breast cancer. Mod Pathol 2010; 23: S46­51.
+23. Lakhani SR, Jacquemier J, Sloane JP, et al. Multifactorial analysis of differences between sporadic breast cancers and cancers involving BRCA1 and BRCA2 mutations. J Natl Cancer Inst 1998; 90: 1138­45.
+24. Deb S, Do H, Byrne D, et al. PIK3CA mutations are frequently observed in BRCAX but not BRCA2-associated male breast cancer. Breast Cancer Res 2013; 15: R69.
+25. Didraga MA, van Beers EH, Joosse SA, et al. A non-BRCA1/2 hereditary breast cancer sub-group defined by aCGH profiling of genetically related patients. Breast Cancer Res Treat 2011; 130: 425­36.
+26. Fernandez-Ramires R, Gomez G, Munoz-Repeto I, et al. Transcriptional characteristics of familial non-BRCA1/BRCA2 breast tumors. Int J Cancer 2011; 128: 2635­44.
+27. Flanagan JM, Cocciardi S, Waddell N, et al. DNA methylome of familial breast cancer identifies distinct profiles defined by mutation status. Am J Hum Genet 2010; 86: 420­33.
+28. Gronwald J, Jauch A, Cybulski C, et al. Comparison of genomic abnormalities between BRCAX and sporadic breast cancers studied by comparative genomic hybridization. Int J Cancer 2005; 114: 230­6.
+29. Hedenfalk I, Ringner M, Ben-Dor A, et al. Molecular classification of familial non-BRCA1/BRCA2 breast cancer. Proc Natl Acad Sci USA 2003; 100: 2532­7.
+30. Honrado E, Osorio A, Milne RL, et al. Immunohistochemical classification of non-BRCA1/2 tumors identifies different groups that demonstrate the heterogeneity of BRCAX families. Mod Pathol 2007; 20: 1298 ­ 306.
+31. Jernstrom H, Sellberg G, Borg A, et al. Differences in IGFBP-3 regulation between young healthy women from BRCAX families and those belonging to BRCA1/2 families. Eur J Cancer Prev 2006; 15: 233­41.
+32. Loughrey M, Provan PJ, Byth K, et al. Histopathological features of `BRCAX' familial breast cancers in the kConFab resource. Pathology 2008; 40: 352­8.
+
+Pathology (2017), 49(4), June
+33. Melchor L, Honrado E, Garcia MJ, et al. Distinct genomic aberration patterns are found in familial breast cancer associated with different immunohistochemical subtypes. Oncogene 2008; 27: 3165­75.
+34. Sensi E, Tancredi M, Aretini P, et al. p53 inactivation is a rare event in familial breast tumors negative for BRCA1 and BRCA2 mutations. Breast Cancer Res Treat 2003; 82: 1­9.
+35. Atchley DP, Albarracin CT, Lopez A, et al. Clinical and pathologic characteristics of patients with BRCA-positive and BRCA-negative breast cancer. J Clin Oncol 2008; 26: 4282­8.
+36. Hoogerbrugge N, Bult P, Bonenkamp JJ, et al. Numerous high-risk epithelial lesions in familial breast cancer. Eur J Cancer 2006; 42: 2492­8.
+37. Musolino A, Bella MA, Bortesi B, et al. BRCA mutations, molecular markers, and clinical variables in early-onset breast cancer: a populationbased study. Breast 2007; 16: 280­92.
+38. Noori SF, Gangi A, Nelson ME, et al. Comparison of nodal metastasis between BRCA mutation carriers and non-BRCA mutation carriers with breast cancer. Ann Surg Oncol 2014; 21: 3324­9.
+39. Smith P, McGuffog L, Easton DF, et al. A genome wide linkage search for breast cancer susceptibility genes. Genes Chromosomes Cancer 2006; 45: 646­55.
+40. Tilanus-Linthorst MM, Alves C, Seynaeve C, et al. Contralateral recurrence and prognostic factors in familial non-BRCA1/2-associated breast cancer. Br J Surg 2006; 93: 961­8.
+41. Tilanus-Linthorst MM, Bartels KC, Alves C, et al. Selection bias influences reported contralateral breast cancer incidence and survival in high risk nonBRCA1/2 patients. Breast Cancer Res Treat 2006; 95: 117­23.
+42. Waddell N, Arnold J, Cocciardi S, et al. Subtypes of familial breast tumours revealed by expression and copy number profiling. Breast Cancer Res Treat 2010; 123: 661­77.
+43. Wendt C, Lindblom A, Arver B, et al. Tumour spectrum in non-BRCA hereditary breast cancer families in Sweden. Hered Cancer Clin Pract 2015; 13: 15.
+44. Rhiem K, Engel C, Graeser M, et al. The risk of contralateral breast cancer in patients from BRCA1/2 negative high risk families as compared to patients from BRCA1 or BRCA2 positive families: a retrospective cohort study. Breast Cancer Res 2012; 14: R156.
+45. Kirova YM, Stoppa-Lyonnet D, Savignoni A, et al. Risk of breast cancer recurrence and contralateral breast cancer in relation to BRCA1 and BRCA2 mutation status following breast-conserving surgery and radiotherapy. Eur J Cancer 2005; 41: 2304­11.
+46. Knudson Jr AG. Mutation and cancer: statistical study of retinoblastoma. Proc Natl Acad Sci USA 1971; 68: 820­3.
+47. Lakhani SR, Gusterson BA, Jacquemier J, et al. The pathology of familial breast cancer: histological features of cancers in families not attributable to mutations in BRCA1 or BRCA2. Clin Cancer Res 2000; 6: 782­9.
+48. Li CI, Uribe DJ, Daling JR. Clinical characteristics of different histologic types of breast cancer. Br J Cancer 2005; 93: 1046­52.
+49. Zukerberg LR, Yang WI, Gadd M, et al. Cyclin D1 (PRAD1) protein expression in breast cancer: approximately one-third of infiltrating mammary carcinomas show overexpression of the cyclin D1 oncogene. Mod Pathol 1995; 8: 560­7.
+50. Michalides R, Hageman P, van Tinteren H, et al. A clinicopathological study on overexpression of cyclin D1 and of p53 in a series of 248 patients with operable breast cancer. Br J Cancer 1996; 73: 728­34.
+51. Xu X, Gammon MD, Zhang Y, et al. BRCA1 promoter methylation is associated with increased mortality among women with breast cancer. Breast Cancer Res Treat 2009; 115: 397­404.
+52. Kauff ND, Mitra N, Robson ME, et al. Risk of ovarian cancer in BRCA1 and BRCA2 mutation-negative hereditary breast cancer families. J Natl Cancer Inst 2005; 97: 1382­4.
+53. Ingham SL, Warwick J, Buchan I, et al. Ovarian cancer among 8,005 women from a breast cancer family history clinic: no increased risk of invasive ovarian cancer in families testing negative for BRCA1 and BRCA2. J Med Genet 2013; 50: 368­72.
+54. von Wachenfeldt A, Lindblom A, South Swedish Oncogenetic Study Group, et al. A hypothesis-generating search for new genetic breast cancer syndromes--a national study in 803 Swedish families. Hered Cancer Clin Pract 2007; 5: 17­24.
+55. Meindl A. German Consortium for Hereditary Breast and Ovarian Cancer. Comprehensive analysis of 989 patients with breast or ovarian cancer provides BRCA1 and BRCA2 mutation profiles and frequencies for the German population. Int J Cancer 2002; 97: 472­80.
+56. Adem C, Reynolds C, Soderberg CL, et al. Pathologic characteristics of breast parenchyma in patients with hereditary breast carcinoma, including BRCA1 and BRCA2 mutation carriers. Cancer 2003; 97: 1­11.
+
+
