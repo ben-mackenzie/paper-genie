@@ -1,4 +1,4 @@
-The new england journal of medicine
+ï»¿The new england journal of medicine
 
 Original Article
 
@@ -70,7 +70,7 @@ in the affected patients were TP53 (in 50 patients), APC (in 6), BRCA2 (in 6), N
 
 (in 4), RB1 (in 3), and RUNX1 (in 3). A total of 18 additional patients had protein-truncating
 
-N Engl J Med 2015;373:2336-46. DOI: 10.1056/NEJMoa1508054 Copyright © 2015 Massachusetts Medical Society.
+N Engl J Med 2015;373:2336-46. DOI: 10.1056/NEJMoa1508054 Copyright Â© 2015 Massachusetts Medical Society.
 
 mutations in tumor-suppressor genes. Of the 58 patients with a predisposing mutation and available information on family history, 23 (40%) had a family history of cancer.
 
@@ -82,14 +82,14 @@ Germline mutations in cancer-predisposing genes were identified in 8.5% of the c
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 Germline Mutations and Pediatric Cancer
 
 The frequency of germline mutations in cancer-predisposition genes in children and adolescents with cancer and the implications of such mutations are largely unknown. Previous studies have relied mainly on candidate-gene approaches, which are, by design, limited. To better determine the contribution of germline predisposition mutations to childhood cancer, we used next-generation sequencing, including whole-genome and whole-exome sequencing, to analyze the genomes of 1120 children and adolescents with cancer. We describe the prevalence and spectrum of germline variants among 565 cancer-associated genes, with an emphasis on the analysis of 60 genes that have been associated with autosomal dominant cancerpredisposition syndromes. We also reviewed rec ords of patients with mutations and those without mutations in these 60 genes for information on family history of cancer.
 Methods
 Enrollment of the Patients
-The 1120 patients included in this study represented the major subtypes of pediatric cancer (Fig. 1; and Table S1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). Whole-genome, whole-exome, or both types of sequencing data were generated with the use of germline DNA for 595, 456, and 69 patients, respectively, as part of the St. Jude­ Washington University Pediatric Cancer Genome Project (PCGP; www.ebi.ac.uk/ega/search/site/ PCGP). To verify predictions of aberrant splicing caused by variants affecting splice junctions, we sequenced the RNA transcripts extracted from 522 samples of tumor tissue obtained from 522 patients. The study was approved by the institutional review board at St. Jude Children's Research Hospital. Written informed consent was provided by a parent or guardian of each child or by a patient who was 18 years of age or older.
+The 1120 patients included in this study represented the major subtypes of pediatric cancer (Fig. 1; and Table S1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). Whole-genome, whole-exome, or both types of sequencing data were generated with the use of germline DNA for 595, 456, and 69 patients, respectively, as part of the St. JudeÂ­ Washington University Pediatric Cancer Genome Project (PCGP; www.ebi.ac.uk/ega/search/site/ PCGP). To verify predictions of aberrant splicing caused by variants affecting splice junctions, we sequenced the RNA transcripts extracted from 522 samples of tumor tissue obtained from 522 patients. The study was approved by the institutional review board at St. Jude Children's Research Hospital. Written informed consent was provided by a parent or guardian of each child or by a patient who was 18 years of age or older.
 Whole-exome sequencing data from two control cohorts of persons without known cancer were analyzed. The first data set, a raw wholeexome sequencing data set from 966 unrelated adults who were part of the 1000 Genomes Project (http://ftp.1000genomes.ebi.ac.uk/v ol1/f tp/ phase3), was analyzed by the same approach that was used in our pediatric cancer cohort. The second data set consisted of genotype files of 515 persons with autism and 208 persons
 
 A SEER Program
@@ -134,7 +134,7 @@ without autism (median age, 6 years; range, 1 to 37) from the National Database 
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 2337
 
@@ -226,7 +226,7 @@ The sequencing data were analyzed for the presence of single-nucleotide variants
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 Germline Mutations and Pediatric Cancer
 
@@ -256,7 +256,7 @@ tein function, and recent ACMG guidelines for APC (in 6), BRCA2 (in 6), NF1 (in 
 
 interpretation.13 Full details of the data analysis RB1 (in 3), and RUNX1 (in 3). One patient (Patient
 
-and interpretation are provided in Figure S1 in HGG111) with café au lait spots and a high-grade
+and interpretation are provided in Figure S1 in HGG111) with cafÃ© au lait spots and a high-grade
 
 Supplementary Appendix 1.
 
@@ -324,7 +324,7 @@ Genes
 
 second hit within the tumors. Validation by means
 
-In the 60 genes that have been associated with of deep sequencing at more than 2000× coverage
+In the 60 genes that have been associated with of deep sequencing at more than 2000Ã— coverage
 
 autosomal dominant cancer-predisposition syn- verified the mutant allele fraction within the
 
@@ -344,7 +344,7 @@ were deemed to be pathogenic or probably patho- nant cancer-predisposition syndr
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 2339
 
@@ -466,13 +466,13 @@ Other Cancer Gene
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 Germline Mutations and Pediatric Cancer
 
 Figure 3 (facing page). Distribution of Germline Mutations in Different Gene Categories and Cancer Subtypes.
 Panels A and B include only mutations that were deemed to be pathogenic or probably pathogenic and that affect genes that have been associated with autosomal dominant cancer-predisposition syndromes, according to tumor subtype. Panel A shows the distribution of mutations in each gene among patients with various cancers included in the PCGP cohort. Panel B shows the prevalence of the mutations in each cancer subtype. Five patients with melanoma without mutations are not shown, and one patient (HGG027) who had a CNS tumor with biallelic mutation in an autosomal recessive gene (ATM) is not included in the summary. Panel C shows the number of patients who had germline mutations considered to be pathogenic or probably pathogenic in genes that have been associated with autosomal dominant (60 genes) and autosomal recessive (29) cancer susceptibility, according to cancer subtype. Panel D shows the total number of patients who had truncation mutations in tumor-suppressor genes, tyrosine kinase genes, and other cancer genes, according to cancer subtype.
-were found in APC (in one person), BRCA1 (in one), BRCA2 (in four), MSH6 (in one), SDHA (in one), SDHB (in one), and TP53 (in two) (Table S6 in Supplementary Appendix 1). The prevalence of mutations was 1.1%, which was significantly lower than the 8.4% prevalence observed in the PCGP cohort (P=5.9×10-16 by Fisher's exact test). A similar trend was observed in the second control set, which involved participants from the autism study (frequency, 0.6%; P=7.4×10-16 for the comparison with the PCGP cohort) (Table S7 in Supplementary Appendix 1).
+were found in APC (in one person), BRCA1 (in one), BRCA2 (in four), MSH6 (in one), SDHA (in one), SDHB (in one), and TP53 (in two) (Table S6 in Supplementary Appendix 1). The prevalence of mutations was 1.1%, which was significantly lower than the 8.4% prevalence observed in the PCGP cohort (P=5.9Ã—10-16 by Fisher's exact test). A similar trend was observed in the second control set, which involved participants from the autism study (frequency, 0.6%; P=7.4Ã—10-16 for the comparison with the PCGP cohort) (Table S7 in Supplementary Appendix 1).
 The PCGP cohort included a greater-thanexpected proportion of patients with hypodiploid acute lymphoblastic leukemia and those with adrenocortical tumors (Fig. 1). However, after these two subtypes were excluded, the prevalence of germline mutations of 5.6% was still significantly higher than the prevalence in the two control cohorts (P<10-7 by Fisher's exact test for both comparisons).
 In our analysis of 29 autosomal recessive cancer-predisposition genes, we observed only one instance of biallelic pathogenic mutations in 1 pa tient (Table S8 in Supplementary Appendix 1). Combining data from this single patient, who had ataxia telangiectasia caused by biallelic muta-
 
@@ -484,7 +484,7 @@ The correlation of patient genotype with tumor phenotype revealed several known 
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 2341
 
@@ -586,26 +586,26 @@ Panel A shows that in the tumor-contaminated germline sample of Patient 1 (E2A01
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 Germline Mutations and Pediatric Cancer
 
-tions included the association of TP53 mutations with classic Li­Fraumeni syndrome­associated component cancers such as rhabdomyosarcomas, osteosarcomas, adrenocortical tumors, CNS tumors, and leukemia; NF1 mutations with CNS tumors; RB1 mutations with retinoblastoma and osteosarcoma; and ALK mutations with neuroblastoma (Fig. 3A). New associations included the association of germline TP53, PMS2, and RET mutations with Ewing's sarcoma; APC and SDHB mutations with neuroblastoma; and a variety of mutations (APC, VHL, CDH1, PTCH1, or SDHA) with leukemia.
-A total of eight children had germline mutations in the adult-onset cancer­predisposition genes BRCA1, BRCA2, and PALB2. The spectrum of cancers observed in these children included leukemia, CNS tumors, neuroblastoma, osteosarcoma, and rhabdomyosarcoma. Although biallelic mutations of BRCA1/2 and PALB2 are known to cause Fanconi's anemia,16-19 there were no germline mutations or deletions involving the second alleles of these genes in any of the affected patients.
+tions included the association of TP53 mutations with classic LiÂ­Fraumeni syndromeÂ­associated component cancers such as rhabdomyosarcomas, osteosarcomas, adrenocortical tumors, CNS tumors, and leukemia; NF1 mutations with CNS tumors; RB1 mutations with retinoblastoma and osteosarcoma; and ALK mutations with neuroblastoma (Fig. 3A). New associations included the association of germline TP53, PMS2, and RET mutations with Ewing's sarcoma; APC and SDHB mutations with neuroblastoma; and a variety of mutations (APC, VHL, CDH1, PTCH1, or SDHA) with leukemia.
+A total of eight children had germline mutations in the adult-onset cancerÂ­predisposition genes BRCA1, BRCA2, and PALB2. The spectrum of cancers observed in these children included leukemia, CNS tumors, neuroblastoma, osteosarcoma, and rhabdomyosarcoma. Although biallelic mutations of BRCA1/2 and PALB2 are known to cause Fanconi's anemia,16-19 there were no germline mutations or deletions involving the second alleles of these genes in any of the affected patients.
 Medical and Family History
 Medical records were available for review for 75 of the 95 patients with mutations that were deemed to be pathogenic or probably pathogenic. The records showed that only 12 patients had undergone clinical genetic testing previously. Clinical testing did not identify the predisposing genetic lesions in 2 patients. Of these 2 patients, 1 had an adrenocortical tumor tested for TP53 (TP53 p.I332F in Patient ACT001) and 1 had retinoblastoma that was tested for RB1 (mosaic RB1 p.R445* in Patient RB002); both lesions were identified by means of the next-generation sequencing approaches used in this study.
-A total of 58 of the 75 records (77%) contained information regarding family history, and only 23 of 58 records (40%) indicated a family history of cancer (defined here as one or more first- or second-degree relatives with cancer) (Fig. S7 in Supplementary Appendix 1). Furthermore, among these 23 patients, only 13 (57%) had a history that was consistent with the underlying genetic syndrome, including 8 patients with TP53 mutations (and thus the Li­Fraumeni syndrome), 2 with APC mutations (familial adeno-
+A total of 58 of the 75 records (77%) contained information regarding family history, and only 23 of 58 records (40%) indicated a family history of cancer (defined here as one or more first- or second-degree relatives with cancer) (Fig. S7 in Supplementary Appendix 1). Furthermore, among these 23 patients, only 13 (57%) had a history that was consistent with the underlying genetic syndrome, including 8 patients with TP53 mutations (and thus the LiÂ­Fraumeni syndrome), 2 with APC mutations (familial adeno-
 
-matous polyposis), 2 with BRCA2 mutations (hereditary breast and ovarian cancer; the pedigrees are shown in Fig. S8 in Supplementary Appendix 1), and 1 with PMS2 mutations (hereditary nonpolyposis colorectal cancer, also known as the Lynch syndrome). The 8 patients with the Li­Fraumeni syndrome all met the revised Chompret criteria regarding family history.20
+matous polyposis), 2 with BRCA2 mutations (hereditary breast and ovarian cancer; the pedigrees are shown in Fig. S8 in Supplementary Appendix 1), and 1 with PMS2 mutations (hereditary nonpolyposis colorectal cancer, also known as the Lynch syndrome). The 8 patients with the LiÂ­Fraumeni syndrome all met the revised Chompret criteria regarding family history.20
 We completed a similar analysis of a comparison cohort of 100 randomly selected patients who did not have germline mutations in the 60 autosomal dominant cancer-predisposition genes. We observed that the percentage of patients with a family history of cancer (42%; 18 of 43 records with family-history information) was similar to that observed among persons with germline mutations (40%; 23 of 58 records).
 Germline Mutations in Other CancerAssociated Genes
 We identified 4348 nonsilent coding mutations in the remaining 476 genes that were analyzed. These included 114 heterozygous truncation mutations, in 109 patients, that involved tumorsuppressor genes, tyrosine kinase genes, or other cancer genes (Fig. 3D, and Table S5 in Supplementary Appendix 1 and Table S4 in Supplementary Appendix 2). The most commonly affected tumor-suppressor genes included CHEK2 (in 4 patients), PML (in 4), and BUB1B (in 3). A total of 18 patients who did not have pathogenic mutations in genes that have been associated with cancer-predisposition syndromes had proteintruncating mutations in tumor-suppressor genes. Two known hotspots of somatic activating mutations in EGFR, T790 and H773, were identified once each in the germline of 2 patients with leukemia (Fig. S6 in Supplementary Appendix 1).
 Discussion
-In this study involving 1120 children and adolescents with cancer, we found that 8.5% of the patients had predisposing gene mutations. Sequence coverage exceeded 10× for more than 95% of the coding exons and 20× for more than 85% of the coding exons in the genes of interest (Table S3 in Supplementary Appendix 1), which was sufficient for genotype accuracy.21 However, the prevalence may be underestimated. First, we
+In this study involving 1120 children and adolescents with cancer, we found that 8.5% of the patients had predisposing gene mutations. Sequence coverage exceeded 10Ã— for more than 95% of the coding exons and 20Ã— for more than 85% of the coding exons in the genes of interest (Table S3 in Supplementary Appendix 1), which was sufficient for genotype accuracy.21 However, the prevalence may be underestimated. First, we
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 2343
 
@@ -624,7 +624,7 @@ This study has several limitations. First, several subtypes of pediatric cancers
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 Germline Mutations and Pediatric Cancer
 
@@ -638,15 +638,15 @@ Disclosure forms provided by the authors are available with the full text of thi
 We thank the staff of the Pediatric Cancer Genome Project Laboratory and the Molecular Pathology Laboratory at St. Jude's Children's Research Hospital for next-generation sequencing and subsequent validation of identified pathogenic variants.
 
 References
-1. Futreal PA, Coin L, Marshall M, et al. A census of human cancer genes. Nat Rev Cancer 2004;4:177-83. 2. Lindor NM, McMaster ML, Lindor CJ, Greene MH. Concise handbook of familial cancer susceptibility syndromes -- second edition. J Natl Cancer Inst Monogr 2008;(38):1-93. 3. Pizzo PA, Poplack DG, eds. Principles and practice of pediatric oncology. 6th ed. Philadelphia:Wolters Kluwer­Lippincott Williams & Wilkins Health, 2011. 4. Pui C-H. Childhood leukemias. 3rd ed. Cambridge, United Kingdom:Cambridge University Press, 2012. 5. Green RC, Berg JS, Grody WW, et al. ACMG recommendations for reporting of incidental findings in clinical exome and genome sequencing. Genet Med 2013;15: 565-74. 6. Bombard Y, Offit K, Robson ME. Risks to relatives in genomic research: a duty to warn? Am J Bioeth 2012;12:12-4. 7. Offit K, Groeger E, Turner S, Wads worth EA, Weiser MA. The "duty to warn" a patient's family members about hereditary disease risks. JAMA 2004;292:146973. 8. Storm C, Agarwal R, Offit K. Ethical and legal implications of cancer genetic testing: do physicians have a duty to warn patients' relatives about possible genetic risks? J Oncol Pract 2008;4:229-30.
+1. Futreal PA, Coin L, Marshall M, et al. A census of human cancer genes. Nat Rev Cancer 2004;4:177-83. 2. Lindor NM, McMaster ML, Lindor CJ, Greene MH. Concise handbook of familial cancer susceptibility syndromes -- second edition. J Natl Cancer Inst Monogr 2008;(38):1-93. 3. Pizzo PA, Poplack DG, eds. Principles and practice of pediatric oncology. 6th ed. Philadelphia:Wolters KluwerÂ­Lippincott Williams & Wilkins Health, 2011. 4. Pui C-H. Childhood leukemias. 3rd ed. Cambridge, United Kingdom:Cambridge University Press, 2012. 5. Green RC, Berg JS, Grody WW, et al. ACMG recommendations for reporting of incidental findings in clinical exome and genome sequencing. Genet Med 2013;15: 565-74. 6. Bombard Y, Offit K, Robson ME. Risks to relatives in genomic research: a duty to warn? Am J Bioeth 2012;12:12-4. 7. Offit K, Groeger E, Turner S, Wads worth EA, Weiser MA. The "duty to warn" a patient's family members about hereditary disease risks. JAMA 2004;292:146973. 8. Storm C, Agarwal R, Offit K. Ethical and legal implications of cancer genetic testing: do physicians have a duty to warn patients' relatives about possible genetic risks? J Oncol Pract 2008;4:229-30.
 
 9. Zhao M, Sun J, Zhao Z. TSGene: a Web resource for tumor suppressor genes. Nucleic Acids Res 2013;41:D970-D976. 10. Edmonson MN, Zhang JH, Yan CH, Finney RP, Meerzaman DM, Buetow KH. Bambino: a variant detector and alignment viewer for next-generation sequencing data in the SAM/BAM format. Bioinformatics 2011;27:865-6. 11. Chen X, Gupta P, Wang J, et al. CONSERTING: integrating copy-number analysis with structural-variation detection. Nat Methods 2015;12:527-30. 12. Wang J, Mullighan CG, Easton J, et al. CREST maps somatic structural variation in cancer genomes with base-pair resolution. Nat Methods 2011;8:652-4. 13. Richards S, Aziz N, Bale S, et al. Standards and guidelines for the interpre tation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology. Genet Med 2015;17:405-24. 14. Holmfeldt L, Wei L, Diaz-Flores E, et al. The genomic landscape of hypodiploid acute lymphoblastic leukemia. Nat Genet 2013;45:242-52. 15. Wu G, Diaz AK, Paugh BS, et al. The genomic landscape of diffuse intrinsic pontine glioma and pediatric non-brainstem high-grade glioma. Nat Genet 2014; 46:444-50.
 
-16. Alter BP, Kupfer G. Fanconi anemia. Seattle:University of Washington, 2002. 17. Howlett NG, Taniguchi T, Olson S, et al. Biallelic inactivation of BRCA2 in Fanconi anemia. Science 2002;297:606-9. 18. Reid S, Schindler D, Hanenberg H, et al. Biallelic mutations in PALB2 cause Fanconi anemia subtype FA-N and predispose to childhood cancer. Nat Genet 2007;39:162-4. 19. Sawyer SL, Tian L, Kahkonen M, et al. Biallelic mutations in BRCA1 cause a new Fanconi anemia subtype. Cancer Discov 2015;5:135-42. 20. Bougeard G, Sesboüé R, Baert-Desurmont S, et al. Molecular basis of the Li­ Fraumeni syndrome: an update from the French LFS families. J Med Genet 2008;45: 535-8. 21. Meldrum C, Doyle MA, Tothill RW. Next-generation sequencing for cancer diagnostics: a practical perspective. Clin Biochem Rev 2011;32:177-95. 22. Cope JU, Tsokos M, Miller RW. Ewing sarcoma and sinonasal neuroectodermal tumors as second malignant tumors after retinoblastoma and other neoplasms. Med Pediatr Oncol 2001;36:290-4. 23. Mittal R, Al Awadi S, Sahar O, Behbehani AM. Ewing's sarcoma as second malignant neoplasm after retinoblastoma: a case report. Med Princ Pract 2008; 17:84-5.
+16. Alter BP, Kupfer G. Fanconi anemia. Seattle:University of Washington, 2002. 17. Howlett NG, Taniguchi T, Olson S, et al. Biallelic inactivation of BRCA2 in Fanconi anemia. Science 2002;297:606-9. 18. Reid S, Schindler D, Hanenberg H, et al. Biallelic mutations in PALB2 cause Fanconi anemia subtype FA-N and predispose to childhood cancer. Nat Genet 2007;39:162-4. 19. Sawyer SL, Tian L, Kahkonen M, et al. Biallelic mutations in BRCA1 cause a new Fanconi anemia subtype. Cancer Discov 2015;5:135-42. 20. Bougeard G, SesboÃ¼Ã© R, Baert-Desurmont S, et al. Molecular basis of the LiÂ­ Fraumeni syndrome: an update from the French LFS families. J Med Genet 2008;45: 535-8. 21. Meldrum C, Doyle MA, Tothill RW. Next-generation sequencing for cancer diagnostics: a practical perspective. Clin Biochem Rev 2011;32:177-95. 22. Cope JU, Tsokos M, Miller RW. Ewing sarcoma and sinonasal neuroectodermal tumors as second malignant tumors after retinoblastoma and other neoplasms. Med Pediatr Oncol 2001;36:290-4. 23. Mittal R, Al Awadi S, Sahar O, Behbehani AM. Ewing's sarcoma as second malignant neoplasm after retinoblastoma: a case report. Med Princ Pract 2008; 17:84-5.
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 2345
 
@@ -717,12 +717,12 @@ trance mutations in cancer-susceptibility
 et al. A strong candidate for the breast 35. Lucas AL, Shakya R, Lipsyc MD, et al.
 
 High prevalence of BRCA1 and BRCA2 germline mutations with loss of heterozygosity in a series of resected pancreatic adenocarcinoma and other neoplastic lesions. Clin Cancer Res 2013;19:3396-403. 36. Osorio A, de la Hoya M, RodriguezLopez R, et al. Loss of heterozygosity analysis at the BRCA loci in tumor samples from patients with familial breast cancer. Int J Cancer 2002;99:305-9. 37. Staff S, Isola JJ, Johannsson O, Borg A, Tanner MM. Frequent somatic loss of BRCA1 in breast tumours from BRCA2 germ-line mutation carriers and vice versa. Br J Cancer 2001;85:1201-5. 38. Willems AJ, Dawson SJ, Samaratunga H, et al. Loss of heterozygosity at the BRCA2 locus detected by multiplex ligation-dependent probe amplification is common in prostate cancers from men with a germline BRCA2 mutation. Clin Cancer Res 2008;1 4:2953-61. 39. Knapke S, Nagarajan R, Correll J, Kent D, Burns K. Hereditary cancer risk assessment in a pediatric oncology follow-up clinic. Pediatr Blood Cancer 2012; 58:8 5-9.
-Copyright © 2015 Massachusetts Medical Society.
+Copyright Â© 2015 Massachusetts Medical Society.
 
 2346
 
 n engl j med 373;24nejm.org December 10, 2015
 The New England Journal of Medicine Downloaded from nejm.org on March 16, 2019. For personal use only. No other uses without permission.
-Copyright © 2015 Massachusetts Medical Society. All rights reserved.
+Copyright Â© 2015 Massachusetts Medical Society. All rights reserved.
 
 

@@ -1,4 +1,4 @@
-# text-processing
+# Text Processing
 Contains the code that handles the text processing portion of the project
 
 To run the code:

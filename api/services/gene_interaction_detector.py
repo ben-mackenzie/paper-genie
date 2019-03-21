@@ -18,7 +18,7 @@ def intersection(lst1, lst2):
     return lst3
 
 
-def main(gene_names_file, paper_file_name):
+def detect_genes(gene_names_file, paper_file_name):
     with open(gene_names_file, 'r') as gene_file:
         content = ''.join(gene_file.readlines())
 
@@ -33,11 +33,11 @@ def main(gene_names_file, paper_file_name):
 
         result = intersection(gene_names, paper_text)
 
-        print(result)
+        return result
 
 
 if __name__ == "__main__":
     gene_names_file = 'gene-names.txt'
     paper_file_name = 'corpus/1.txt'
 
-    main(gene_names_file, paper_file_name)
+    detect_genes(gene_names_file, paper_file_name)
