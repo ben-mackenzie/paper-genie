@@ -27,7 +27,7 @@ interaction["stringId_B"] = fields.String
 # interaction = api.model('Interaction',interaction)
 gene_model = api.model('Gene Model', {
     'name': fields.String(description="Name of the gene"),
-    'interactions': fields.List(fields.Nested(interaction), description="Interactions with other genes")
+    'known_interactions': fields.List(fields.Nested(interaction), description="Interactions with other genes")
 })
 
 

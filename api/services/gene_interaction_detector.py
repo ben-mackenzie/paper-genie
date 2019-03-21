@@ -32,11 +32,11 @@ def get_gene_details(genes):
     for gene in genes:
         gene_interactions = gene_request(gene)
 
-        gene_data = {'name': gene, 'interactions': []}
+        gene_data = {'name': gene, 'known_interactions': []}
 
         for gene_interaction in gene_interactions:
             if gene_interaction['preferredName_A'] == gene or gene_interaction['preferredName_B'] == gene:
-                gene_data['interactions'].append(gene_interaction)
+                gene_data['known_interactions'].append(gene_interaction)
 
         data.append(gene_data)
     return data
