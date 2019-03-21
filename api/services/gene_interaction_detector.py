@@ -1,8 +1,10 @@
-import nltk
-from tika import parser
 import io
 
+import nltk
 # nltk.download('punkt') # perform on first run
+import requests
+from tika import parser
+
 
 def pdf_to_txt(pdf_file_name, out_txt_file_name):
     content = parser.from_file(pdf_file_name)
@@ -16,6 +18,28 @@ def intersection(lst1, lst2):
     temp = set(lst2)
     lst3 = [value for value in lst1 if value in temp]
     return lst3
+
+
+def gene_request(gene):
+    url_query = 'http://string-db.org/api/json/network'
+    params = {'identifier': gene, 'species': 9606}
+    resp = requests.get(url=url_query, params=params)
+    return resp.json()
+
+
+def get_gene_details(genes):
+    data = []
+    for gene in genes:
+        gene_interactions = gene_request(gene)
+
+        gene_data = {'name': gene, 'interactions': []}
+
+        for gene_interaction in gene_interactions:
+            if gene_interaction['preferredName_A'] == gene or gene_interaction['preferredName_B'] == gene:
+                gene_data['interactions'].append(gene_interaction)
+
+        data.append(gene_data)
+    return data
 
 
 def detect_genes(gene_names_file, paper_file_name):
@@ -33,7 +57,7 @@ def detect_genes(gene_names_file, paper_file_name):
 
         result = intersection(gene_names, paper_text)
 
-        return result
+        return get_gene_details(result)
 
 
 if __name__ == "__main__":

@@ -9,10 +9,30 @@ from api.services.gene_interaction_detector import detect_genes
 
 api = Namespace('paper', description="Paper related operations")
 
-gene_model = fields.String(description='A gene')
+interaction = {}
+interaction["preferredName_A"] = fields.String
+interaction["fscore"] = fields.Float
+interaction["tscore"] = fields.Float
+interaction["score"] = fields.Float
+interaction["ascore"] = fields.Float
+interaction["ncbiTaxonId"] = fields.String
+interaction["pscore"] = fields.Float
+interaction["nscore"] = fields.Float
+interaction["dscore"] = fields.Float
+interaction["stringId_A"] = fields.String
+interaction["escore"] = fields.Float
+interaction["preferredName_B"] = fields.String
+interaction["stringId_B"] = fields.String
+
+# interaction = api.model('Interaction',interaction)
+gene_model = api.model('Gene Model', {
+    'name': fields.String(description="Name of the gene"),
+    'interactions': fields.List(fields.Nested(interaction), description="Interactions with other genes")
+})
+
 
 response = api.model('Paper', {
-    'detected_genes': fields.List(gene_model, required=True, description="A list of genes detected in the paper")
+    'detected_genes': fields.List(fields.Nested(gene_model), required=True, description="A list of genes detected in the paper")
 })
 
 parser = api.parser()
