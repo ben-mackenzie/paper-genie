@@ -24,7 +24,7 @@ interaction["escore"] = fields.Float
 interaction["preferredName_B"] = fields.String
 interaction["stringId_B"] = fields.String
 
-# interaction = api.model('Interaction',interaction)
+interaction = api.model('Interaction',interaction)
 gene_model = api.model('Gene Model', {
     'name': fields.String(description="Name of the gene"),
     'known_interactions': fields.List(fields.Nested(interaction), description="Interactions with other genes")
