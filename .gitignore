@@ -3,3 +3,7 @@
 .idea/*
 venv/*
 uploaded_papers/*
+node_modules/
+build
+/.changelog
+.npm/
