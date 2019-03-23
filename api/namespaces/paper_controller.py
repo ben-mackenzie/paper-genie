@@ -5,7 +5,7 @@ from flask_restplus import Namespace, Resource, fields
 from werkzeug.datastructures import FileStorage
 from werkzeug.utils import secure_filename
 
-from api.services.gene_interaction_detector import detect_genes
+import api.services.gene_interaction_detector as detector
 
 api = Namespace('paper', description="Paper related operations")
 
@@ -39,7 +39,7 @@ parser = api.parser()
 parser.add_argument('file', type=FileStorage, location='files', required=True)
 
 # paths
-gene_names_file = '../gene-names.txt'
+gene_names_file = './genes/reviewed-home-sapien-genes.tab'
 UPLOAD_FOLDER = '../uploaded_papers'
 
 
@@ -49,12 +49,15 @@ class Paper(Resource):
     @api.expect(parser, validate=True)
     @api.marshal_with(response)
     def post(self):
-        file = request.files['file']
+        paper_file = request.files['file']
 
         if not os.path.exists(UPLOAD_FOLDER):
             os.makedirs(UPLOAD_FOLDER)
 
-        file.save(os.path.join(UPLOAD_FOLDER, secure_filename(file.filename)))
-        detected_genes = detect_genes(gene_names_file, os.path.join(UPLOAD_FOLDER, file.filename))
+        paper_file.save(os.path.join(UPLOAD_FOLDER, secure_filename(paper_file.filename)))
+        paper_file_name = os.path.join(UPLOAD_FOLDER, paper_file.filename)
+
+        gene_names = detector.read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
+        detected_genes = detector.detect_genes(gene_names, paper_file_name)
         res = {"detected_genes": detected_genes}
         return res

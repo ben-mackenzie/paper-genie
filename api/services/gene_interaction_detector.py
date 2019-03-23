@@ -1,4 +1,5 @@
 import io
+import csv
 
 import nltk
 # nltk.download('punkt') # perform on first run
@@ -42,26 +43,36 @@ def get_gene_details(genes):
     return data
 
 
-def detect_genes(gene_names_file, paper_file_name):
-    with open(gene_names_file, 'r') as gene_file:
-        content = ''.join(gene_file.readlines())
+def detect_genes(gene_names, paper_file_name):
+    # create a regex tokenizer that captures whole words, words with hyphens, full commas and forward slashes
+    tokenizer = nltk.RegexpTokenizer(r'\w[\w-][\w.][\w/]+')
 
-        # create a regex tokenizer that captures whole words, words with hyphens, full commas and forward slashes
-        tokenizer = nltk.RegexpTokenizer(r'\w[\w-][\w.][\w/]+')
+    paper_file = io.open(paper_file_name, 'rU', encoding='utf-8')
+    content = ''.join(paper_file.readlines())
+    paper_text = tokenizer.tokenize(content)
 
-        gene_names = tokenizer.tokenize(content)
+    result = intersection(gene_names, paper_text)
 
-        paper_file = io.open(paper_file_name, 'rU', encoding='utf-8')
-        content = ''.join(paper_file.readlines())
-        paper_text = tokenizer.tokenize(content)
+    return get_gene_details(result)
 
-        result = intersection(gene_names, paper_text)
 
-        return get_gene_details(result)
+def read_genes_from_tsv(file_name, name_headers):
+    tokenizer = nltk.RegexpTokenizer(r'[\w.]+')
+    genes_names = []
+    with open(file_name) as f:
+        reader = csv.DictReader(f, dialect='excel-tab')
+        for row in reader:
+            names = ' '.join([row[h] for h in name_headers])
+            genes_names.extend(tokenizer.tokenize(names))
+    return set(genes_names)
 
 
 if __name__ == "__main__":
-    gene_names_file = 'gene-names.txt'
-    paper_file_name = 'corpus/1.txt'
+    gene_names_file = '../../genes/reviewed-home-sapien-genes.tab'
+    paper_file_name = '../../corpus/1.txt'
 
-    detect_genes(gene_names_file, paper_file_name)
+    gene_names = read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
+    genes = detect_genes(gene_names, paper_file_name)
+    print(len(genes))
+    print(genes)
+
