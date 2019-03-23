@@ -2,4 +2,6 @@
 .DS_Store
 .idea/*
 venv/*
+env/*
 uploaded_papers/*
+*.pyc
