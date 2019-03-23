@@ -52,7 +52,7 @@ def detect_genes(genes, paper_content):
 
 
 def read_genes_from_tsv(file_name, name_headers):
-    tokenizer = nltk.RegexpTokenizer(r'[\w\.-\\\'-]+')
+    tokenizer = nltk.RegexpTokenizer(r"[\w\.'-]+")
     genes_names = []
     with open(file_name) as f:
         reader = csv.DictReader(f, dialect='excel-tab')
