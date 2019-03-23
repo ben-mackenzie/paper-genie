@@ -69,12 +69,33 @@ def read_paper_text_file(file_name):
         return content
 
 
+def search_gene_sentences(gene_names, paper_content, min_genes_in_sentence):
+    data = []
+    sentences = nltk.sent_tokenize(paper_content)
+    for sentence in sentences:
+        words = nltk.word_tokenize(sentence)
+        genes = intersection(words, gene_names)
+        if len(genes) >= min_genes_in_sentence:
+            data.append({
+                'genes': genes,
+                'sentence': sentence
+            })
+    return data
+
+
 if __name__ == "__main__":
     gene_names_file = '../../genes/reviewed-home-sapien-genes.tab'
-    paper_file_name = '../../corpus/1.txt'
+    paper_file_name = '../../corpus/3.txt'
 
     gene_names = read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
-    genes = detect_genes(gene_names, paper_file_name)
-    print(len(genes))
-    print(genes)
+    paper = read_paper_text_file(paper_file_name)
+    gene_sentences = search_gene_sentences(gene_names, paper, 2)
+    for g in gene_sentences:
+        print(g['sentence'])
+        print(g['genes'])
 
+    # genes = detect_genes(gene_names, paper_file_name)
+    # for g in genes:
+    #     print g['name']
+    # #print(len(genes))
+    # #print(genes)
