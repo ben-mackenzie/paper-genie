@@ -42,7 +42,7 @@ parser.add_argument('file', type=FileStorage, location='files', required=True)
 gene_names_file = './genes/reviewed-home-sapien-genes.tab'
 UPLOAD_FOLDER = '../uploaded_papers'
 
-gene_names = detector.read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
+genes = detector.read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
 
 
 @api.route('/analyze')
@@ -58,7 +58,8 @@ class Paper(Resource):
 
         paper_file.save(os.path.join(UPLOAD_FOLDER, secure_filename(paper_file.filename)))
         paper_file_name = os.path.join(UPLOAD_FOLDER, paper_file.filename)
+        paper = detector.read_paper_text_file(paper_file_name)
 
-        detected_genes = detector.detect_genes(gene_names, paper_file_name)
+        detected_genes = detector.detect_genes(genes, paper)
         res = {"detected_genes": detected_genes}
         return res

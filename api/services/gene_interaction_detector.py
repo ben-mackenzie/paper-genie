@@ -43,16 +43,11 @@ def get_gene_details(genes):
     return data
 
 
-def detect_genes(gene_names, paper_file_name):
+def detect_genes(genes, paper_content):
     # create a regex tokenizer that captures whole words, words with hyphens, full commas and forward slashes
     tokenizer = nltk.RegexpTokenizer(r'\w[\w-][\w.][\w/]+')
-
-    paper_file = io.open(paper_file_name, 'rU', encoding='utf-8')
-    content = ''.join(paper_file.readlines())
-    paper_text = tokenizer.tokenize(content)
-
-    result = intersection(gene_names, paper_text)
-
+    paper_text = tokenizer.tokenize(paper_content)
+    result = intersection(genes, paper_text)
     return get_gene_details(result)
 
 
@@ -66,6 +61,12 @@ def read_genes_from_tsv(file_name, name_headers):
             names = ' '.join(cols)
             genes_names.extend(tokenizer.tokenize(names))
     return set(genes_names)
+
+
+def read_paper_text_file(file_name):
+    with io.open(file_name, 'rU', encoding='utf-8') as paper_file:
+        content = ''.join(paper_file.readlines())
+        return content
 
 
 if __name__ == "__main__":
