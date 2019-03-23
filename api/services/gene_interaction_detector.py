@@ -90,12 +90,25 @@ if __name__ == "__main__":
     gene_names = read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
     paper = read_paper_text_file(paper_file_name)
     gene_sentences = search_gene_sentences(gene_names, paper, 2)
-    for g in gene_sentences:
-        print(g['sentence'])
-        print(g['genes'])
 
-    # genes = detect_genes(gene_names, paper_file_name)
-    # for g in genes:
-    #     print g['name']
-    # #print(len(genes))
-    # #print(genes)
+
+    lemmatizer = nltk.stem.WordNetLemmatizer()
+    ps = nltk.stem.PorterStemmer()
+
+    for match in gene_sentences:
+        sentence = match['sentence'].lower()
+        genes = [g.lower() for g in match['genes']]
+
+        words = nltk.word_tokenize(sentence)
+        words_lemmatized = [lemmatizer.lemmatize(w) for w in words]
+        words_stemmed = [ps.stem(w) for w in words_lemmatized]
+
+        stop_words = nltk.corpus.stopwords.words('english')
+        words_filtered = [w for w in words_lemmatized if w not in stop_words]
+        # print(words_stemmed)
+
+        tagged = nltk.pos_tag(words_lemmatized, tagset='universal')
+        print(sentence)
+        print(tagged)
+        print(words_stemmed)
+        print()
