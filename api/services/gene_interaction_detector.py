@@ -96,19 +96,21 @@ if __name__ == "__main__":
     ps = nltk.stem.PorterStemmer()
 
     for match in gene_sentences:
-        sentence = match['sentence'].lower()
-        genes = [g.lower() for g in match['genes']]
+        sentence = match['sentence']
 
         words = nltk.word_tokenize(sentence)
-        words_lemmatized = [lemmatizer.lemmatize(w) for w in words]
-        words_stemmed = [ps.stem(w) for w in words_lemmatized]
+        #words_lemmatized = [lemmatizer.lemmatize(w) for w in words]
+        #words_stemmed = [ps.stem(w) for w in words_lemmatized]
 
-        stop_words = nltk.corpus.stopwords.words('english')
-        words_filtered = [w for w in words_lemmatized if w not in stop_words]
-        # print(words_stemmed)
-
-        tagged = nltk.pos_tag(words_lemmatized, tagset='universal')
+        tagged = nltk.pos_tag(words, tagset='universal')
+        grammar = "CHUNK: {<JJ>*<NOUN><VERB><ADP>?<NOUN>(<CONJ><NOUN>)*}"
+        cp = nltk.RegexpParser(grammar)
+        result = cp.parse(tagged)
+        for subtree in result.subtrees():
+            if subtree.label() == "CHUNK":
+                print(subtree.leaves())
         print(sentence)
-        print(tagged)
-        print(words_stemmed)
-        print()
+        # print(tagged)
+        # print(words_stemmed)
+        print(result)
+        print('')
