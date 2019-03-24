@@ -2,6 +2,11 @@
 .DS_Store
 .idea/*
 venv/*
+uploaded_papers/*
+node_modules/
+build
+/.changelog
+.npm/
 env/*
 uploaded_papers/*
 *.pyc
