@@ -6,8 +6,8 @@ To run the code:
 run: `pip install requirements.txt`
 
 In `api/services/gene_interaction_detector.py` uncomment these lines: <br>
-`nltk.download('punkt')` 
-`nltk.download('averaged_perceptron_tagger')`
+`nltk.download('punkt')` <br>
+`nltk.download('averaged_perceptron_tagger')`<br>
 `nltk.download('universal_tagset')`<br>
 (comment them back after the first run)
 
