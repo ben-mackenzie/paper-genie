@@ -5,7 +5,11 @@ To run the code:
 
 run: `pip install requirements.txt`
 
-In `api/services/gene_interaction_detector.py` uncomment the line that says `nltk.download('punkt')` (comment it out after the first run)
+In `api/services/gene_interaction_detector.py` uncomment these lines: <br>
+`nltk.download('punkt')` 
+`nltk.download('averaged_perceptron_tagger')`
+`nltk.download('universal_tagset')`<br>
+(comment them back after the first run)
 
 Run `python app.py`
 
