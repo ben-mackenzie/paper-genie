@@ -5,7 +5,7 @@ from flask_restplus import Namespace, Resource, fields
 from werkzeug.datastructures import FileStorage
 from werkzeug.utils import secure_filename
 
-from api.services.gene_interaction_detector import detect_genes
+import api.services.gene_interaction_detector as detector
 
 api = Namespace('paper', description="Paper related operations")
 
@@ -24,7 +24,7 @@ interaction["escore"] = fields.Float
 interaction["preferredName_B"] = fields.String
 interaction["stringId_B"] = fields.String
 
-# interaction = api.model('Interaction',interaction)
+interaction = api.model('Interaction',interaction)
 gene_model = api.model('Gene Model', {
     'name': fields.String(description="Name of the gene"),
     'known_interactions': fields.List(fields.Nested(interaction), description="Interactions with other genes")
@@ -39,8 +39,10 @@ parser = api.parser()
 parser.add_argument('file', type=FileStorage, location='files', required=True)
 
 # paths
-gene_names_file = '../gene-names.txt'
+gene_names_file = './genes/reviewed-home-sapien-genes.tab'
 UPLOAD_FOLDER = '../uploaded_papers'
+
+genes = detector.read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
 
 
 @api.route('/analyze')
@@ -49,12 +51,15 @@ class Paper(Resource):
     @api.expect(parser, validate=True)
     @api.marshal_with(response)
     def post(self):
-        file = request.files['file']
+        paper_file = request.files['file']
 
         if not os.path.exists(UPLOAD_FOLDER):
             os.makedirs(UPLOAD_FOLDER)
 
-        file.save(os.path.join(UPLOAD_FOLDER, secure_filename(file.filename)))
-        detected_genes = detect_genes(gene_names_file, os.path.join(UPLOAD_FOLDER, file.filename))
+        paper_file.save(os.path.join(UPLOAD_FOLDER, secure_filename(paper_file.filename)))
+        paper_file_name = os.path.join(UPLOAD_FOLDER, paper_file.filename)
+        paper = detector.read_paper_text_file(paper_file_name)
+
+        detected_genes = detector.detect_genes(genes, paper)
         res = {"detected_genes": detected_genes}
         return res
