@@ -1,0 +1,10 @@
+version: "3"
+services:
+  heartbreak-ui:
+    build:
+      context: ./web-ui
+      dockerfile: Dockerfile
+    image: heartbreak-ui
+    ports:
+      - "4000:5000"
+
