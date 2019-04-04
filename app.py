@@ -1,8 +1,10 @@
 from flask import Flask
+from flask_cors import CORS
 from api.namespaces import api
 
 app = Flask(__name__)
 api.init_app(app)
+CORS(app)
 
 # def run_interaction():
 #     gene_names_file = 'gene-names.txt'

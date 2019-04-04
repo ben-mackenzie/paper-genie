@@ -23,8 +23,44 @@ class GraphUI extends Component {
         super(props);
 
         this.state = {
-
+            uploading: false,
+            file: {},
+            detected_genes: {}
         };
+    }
+
+    handleUploadClicked = () => {
+        console.log("analyze clicked");
+
+        this.setState({ uploading: true })
+
+        const formData = new FormData();
+        formData.append('file', this.state.file)
+
+        fetch("http://localhost:5000"+ '/paper/analyze', {
+            method: 'POST',
+            body: formData
+        })
+        .then( (response) => {
+            return response.json()    
+        })
+        .then( (json) => {
+          this.setState({
+             uploading: false,
+             detected_genes: json
+          })
+          console.log('parsed json', json)
+        })
+        .catch( (ex) => {
+          console.log('parsing failed', ex)
+        })
+    }
+
+    handleInputOnChange = (event) => {
+        console.log("handleInputOnChange");
+        console.log(event.target.files[0]);
+
+        this.setState({ file: event.target.files[0] })
     }
 
     render() {
@@ -43,8 +79,8 @@ class GraphUI extends Component {
                     </Toolbar>
                 </AppBar>
                 <Paper>
-                    <input type="file" id="upload-file" />
-                    <Button>
+                    <input onChange={this.handleInputOnChange} type="file" id="upload-file" accept=".pdf,.txt"/>
+                    <Button onClick={this.handleUploadClicked}>
                         Analyze File
                     </Button>
 
