@@ -14,6 +14,8 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 
+import DiffGraphVis from './DiffGraphVis';
+
 const styles = {
 
 };
@@ -65,7 +67,7 @@ class GraphUI extends Component {
 
     render() {
         //const { classes } = this.prop
-
+        const genes = this.state.detected_genes.detected_genes;
         return (
             <div >
                 <AppBar position="static">
@@ -96,6 +98,9 @@ class GraphUI extends Component {
                     </ExpansionPanel>
                     
                 </Paper>
+                <h2> Red - Not found in the paper</h2>
+                <h2> Jaccard score: 0.0 [TODO]</h2>
+                <DiffGraphVis genes={genes}/>
     
             </div>
             
