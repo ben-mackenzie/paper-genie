@@ -10,8 +10,7 @@ The front end is built on React, and it is primarly written in Javascript and HT
 ## Components
 
 ## Routing
-App.js contains the routing information for the front end. '/' is the root and displays the patient list. '/patientId' will display the patient rounding card for patientId.
-  
+App.js contains the routing information for the front end. '/' is the root and displays the graph.
 # Notes for React
 
 ## How to install React on MacOS

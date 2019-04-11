@@ -13,12 +13,22 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import Fade from '@material-ui/core/Fade';
 
 import DiffGraphVis from './DiffGraphVis';
 
-const styles = {
-
-};
+const styles = theme => ({
+    root: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+    },
+    button: {
+      margin: theme.spacing.unit * 2,
+    },
+    
+  });
 
 class GraphUI extends Component {
     constructor(props) {
@@ -66,7 +76,9 @@ class GraphUI extends Component {
     }
 
     render() {
-        //const { classes } = this.prop
+        const { classes } = this.props;
+        const { uploading } = this.state;
+
         const genes = this.state.detected_genes.detected_genes;
         return (
             <div >
@@ -85,6 +97,17 @@ class GraphUI extends Component {
                     <Button onClick={this.handleUploadClicked}>
                         Analyze File
                     </Button>
+
+                     <Fade
+                        className={classes.placeholder}
+                        in={uploading}
+                        style={{
+                        transitionDelay: uploading ? '800ms' : '0ms',
+                        }}
+                        unmountOnExit
+                    >
+                        <CircularProgress />
+                    </Fade>
 
                     <ExpansionPanel>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
