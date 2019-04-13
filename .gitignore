@@ -10,3 +10,4 @@ build
 env/*
 uploaded_papers/*
 *.pyc
+data-output/*
