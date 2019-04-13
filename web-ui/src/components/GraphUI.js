@@ -13,10 +13,22 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import CircularProgress from '@material-ui/core/CircularProgress';
+import Fade from '@material-ui/core/Fade';
 
-const styles = {
+import DiffGraphVis from './DiffGraphVis';
 
-};
+const styles = theme => ({
+    root: {
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+    },
+    button: {
+      margin: theme.spacing.unit * 2,
+    },
+    
+  });
 
 class GraphUI extends Component {
     constructor(props) {
@@ -64,8 +76,10 @@ class GraphUI extends Component {
     }
 
     render() {
-        //const { classes } = this.prop
+        const { classes } = this.props;
+        const { uploading } = this.state;
 
+        const genes = this.state.detected_genes.detected_genes;
         return (
             <div >
                 <AppBar position="static">
@@ -84,6 +98,17 @@ class GraphUI extends Component {
                         Analyze File
                     </Button>
 
+                     <Fade
+                        className={classes.placeholder}
+                        in={uploading}
+                        style={{
+                        transitionDelay: uploading ? '800ms' : '0ms',
+                        }}
+                        unmountOnExit
+                    >
+                        <CircularProgress />
+                    </Fade>
+
                     <ExpansionPanel>
                         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                             <Typography >Visualization Settings</Typography>
@@ -96,6 +121,9 @@ class GraphUI extends Component {
                     </ExpansionPanel>
                     
                 </Paper>
+                <h2> Red - Not found in the paper</h2>
+                <h2> Jaccard score: 0.0 [TODO]</h2>
+                <DiffGraphVis genes={genes}/>
     
             </div>
             
