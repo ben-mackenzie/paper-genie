@@ -1,8 +1,11 @@
-import io
 import csv
+import io
+import itertools
 
 import nltk
 # nltk.download('punkt') # perform on first run
+# nltk.download('averaged_perceptron_tagger')
+# nltk.download('universal_tagset')
 import requests
 from tika import parser
 
@@ -18,7 +21,7 @@ def intersection(lst1, lst2):
     # Use of hybrid method
     temp = set(lst2)
     lst3 = [value for value in lst1 if value in temp]
-    return lst3
+    return set(lst3)
 
 
 def gene_request(gene):
@@ -28,7 +31,7 @@ def gene_request(gene):
     return resp.json()
 
 
-def get_gene_details(genes):
+def query_gene_details(genes):
     data = []
     for gene in genes:
         gene_interactions = gene_request(gene)
@@ -48,7 +51,34 @@ def detect_genes(genes, paper_content):
     tokenizer = nltk.RegexpTokenizer(r'\w[\w-][\w.][\w/]+')
     paper_text = tokenizer.tokenize(paper_content)
     result = intersection(genes, paper_text)
-    return get_gene_details(result)
+    return result
+
+
+def get_gene_details(genes, paper_content, detected_interactions=None):
+    result = detect_genes(genes, paper_content)
+    gene_details = query_gene_details(result)
+    interaction_details = []
+
+    if detected_interactions is not None:
+        # check if genes in paper are first degree neighbours
+        for detected_interaction in detected_interactions:
+            combinations = detected_interaction["interactions"]
+            interaction_detail = {"sentence": detected_interaction["sentence"]}
+            combo_interactions = []
+            for combo in combinations:
+                interacts = False
+                for gene in gene_details:
+                    if gene["name"] in combo:
+                        for known_interaction in gene["known_interactions"]:
+                            pair_interaction = (
+                            known_interaction['preferredName_A'], known_interaction['preferredName_B'])
+                            if pair_interaction == combo or tuple(reversed(pair_interaction)) == combo:
+                                interacts = True
+                combo_interactions.append({"combo": combo, "interacts": interacts})
+            interaction_detail.update({"interaction_details": combo_interactions})
+            interaction_details.append(interaction_detail)
+
+    return gene_details, interaction_details
 
 
 def read_genes_from_tsv(file_name, name_headers):
@@ -83,24 +113,48 @@ def search_gene_sentences(gene_names, paper_content, min_genes_in_sentence):
     return data
 
 
+def detect_interactions(genes, paper):
+    # use grammar rules to check if mentioned genes interact
+
+    gene_sentences = search_gene_sentences(genes, paper, 2)
+    interacting_genes = []
+    gene_pairs = []
+    for match in gene_sentences:
+        sentence = match['sentence']
+        words = nltk.word_tokenize(sentence)
+
+        tagged = nltk.pos_tag(words, tagset='universal')
+        grammar = "CHUNK: {<JJ>*<NOUN><VERB><ADP>?<NOUN>(<CONJ><NOUN>)*}"
+        cp = nltk.RegexpParser(grammar)
+        result = cp.parse(tagged)
+        sentence_genes = detect_genes(genes, sentence)
+        if result is not None and sentence_genes not in interacting_genes:
+            interacting_genes.append(sentence_genes)
+            combos = list(itertools.combinations(sentence_genes, 2))
+            gene_pairs.append({"sentence": sentence, "interactions": combos})
+
+    return gene_pairs
+
+
 if __name__ == "__main__":
-    gene_names_file = '../../genes/reviewed-home-sapien-genes.tab'
-    paper_file_name = '../../corpus/3.txt'
+    gene_names_file = './genes/reviewed-home-sapien-genes.tab'
+    paper_file_name = './corpus/3.txt'
 
     gene_names = read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
     paper = read_paper_text_file(paper_file_name)
     gene_sentences = search_gene_sentences(gene_names, paper, 2)
 
-
     lemmatizer = nltk.stem.WordNetLemmatizer()
     ps = nltk.stem.PorterStemmer()
+    tokenizer = nltk.RegexpTokenizer(r'\w[\w-][\w.][\w/]+')
 
     for match in gene_sentences:
         sentence = match['sentence']
+        # print (match['genes'])
 
         words = nltk.word_tokenize(sentence)
-        #words_lemmatized = [lemmatizer.lemmatize(w) for w in words]
-        #words_stemmed = [ps.stem(w) for w in words_lemmatized]
+        # words_lemmatized = [lemmatizer.lemmatize(w) for w in words]
+        # words_stemmed = [ps.stem(w) for w in words_lemmatized]
 
         tagged = nltk.pos_tag(words, tagset='universal')
         grammar = "CHUNK: {<JJ>*<NOUN><VERB><ADP>?<NOUN>(<CONJ><NOUN>)*}"
