@@ -1,0 +1,69 @@
+interaction of gene1 and gene2
+binding of gene1 and gene2
+reaction of gene1 and gene2
+pairing of gene1 and gene2
+association of gene1 and gene2
+attachment of gene1 and gene2
+attaching of gene1 and gene2
+conjugation of gene1 and gene2
+gene1 interacts with gene2
+gene1 binds gene2
+gene1 reacts with gene2
+gene1 pairs with gene2
+gene1 conjugates gene2
+gene1 attaches with gene2
+gene1 mediates gene2
+gene1 modulates gene2
+gene1 dehydrogenates gene2
+gene1 influences gene2
+gene1 dephosphorylates gene2
+gene1 phosphorylates gene2
+gene1 regulates gene2
+gene1 clearly interacts with gene2
+gene1 clearly binds gene2
+gene1 clearly reacts with gene2
+gene1 clearly pairs with gene2
+gene1 clearly conjugates gene2
+gene1 clearly attaches with gene2
+gene1 clearly mediates gene2
+gene1 clearly modulates gene2
+gene1 clearly dehydrogenates gene2
+gene1 clearly influences gene2
+gene1 clearly dephosphorylates gene2
+gene1 clearly phosphorylates gene2
+gene1 clearly regulates gene2
+gene1 directly interacts with gene2
+gene1 directly binds gene2
+gene1 directly reacts with gene2
+gene1 directly pairs with gene2
+gene1 directly conjugates gene2
+gene1 directly attaches with gene2
+gene1 directly mediates gene2
+gene1 directly modulates gene2
+gene1 directly dehydrogenates gene2
+gene1 directly influences gene2
+gene1 directly dephosphorylates gene2
+gene1 directly phosphorylates gene2
+gene1 directly regulates gene2
+gene1 evidently interacts with gene2
+gene1 evidently binds gene2
+gene1 evidently reacts with gene2
+gene1 evidently pairs with gene2
+gene1 evidently conjugates gene2
+gene1 evidently attaches with gene2
+gene1 evidently mediates gene2
+gene1 evidently modulates gene2
+gene1 evidently dehydrogenates gene2
+gene1 evidently influences gene2
+gene1 evidently dephosphorylates gene2
+gene1 evidently phosphorylates gene2
+gene1 evidently regulates gene2
+binding of gene1 by gene2
+conjugation of gene1 by gene2
+attachment of gene1 by gene2
+mediation of gene1 by gene2
+modulation of gene1 by gene2
+dehydrogenation of gene1 by gene2
+regulation of gene1 by gene2
+phosphorylation of gene1 by gene2
+dephosphorylation of gene1 by gene2

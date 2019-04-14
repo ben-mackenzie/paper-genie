@@ -1,0 +1,130 @@
+gene1 and gene2
+gene1 like gene2
+gene1 or gene2
+gene1 with gene2
+gene1 unlike gene2
+gene1 at gene2
+gene1 in gene2
+gene1 of gene2
+gene1 around gene2
+no interaction between gene1 and gene2
+no binding between gene1 and gene2
+no reaction between gene1 and gene2
+no pairing between gene1 and gene2
+no association between gene1 and gene2
+no attachment between gene1 and gene2
+no attaching between gene1 and gene2
+no conjugation between gene1 and gene2
+gene1 does not interacts with gene2
+gene1 does not binds gene2
+gene1 does not reacts with gene2
+gene1 does not pairs with gene2
+gene1 does not conjugates gene2
+gene1 does not attaches with gene2
+gene1 does not mediates gene2
+gene1 does not modulates gene2
+gene1 does not dehydrogenates gene2
+gene1 does not influences gene2
+gene1 does not dephosphorylates gene2
+gene1 does not phosphorylates gene2
+gene1 does not regulates gene2
+gene1 can not interact with gene2
+gene1 can not bind gene2
+gene1 can not react with gene2
+gene1 can not pair with gene2
+gene1 can not conjugate gene2
+gene1 can not attache with gene2
+gene1 can not mediate gene2
+gene1 can not modulate gene2
+gene1 can not dehydrogenate gene2
+gene1 can not influence gene2
+gene1 can not dephosphorylate gene2
+gene1 can not phosphorylate gene2
+gene1 can not regulate gene2
+gene1 will not interact with gene2
+gene1 will not bind gene2
+gene1 will not react with gene2
+gene1 will not pair with gene2
+gene1 will not conjugate gene2
+gene1 will not attache with gene2
+gene1 will not mediate gene2
+gene1 will not modulate gene2
+gene1 will not dehydrogenate gene2
+gene1 will not influence gene2
+gene1 will not dephosphorylate gene2
+gene1 will not phosphorylate gene2
+gene1 will not regulate gene2
+gene1 may not interact with gene2
+gene1 may not bind gene2
+gene1 may not react with gene2
+gene1 may not pair with gene2
+gene1 may not conjugate gene2
+gene1 may not attache with gene2
+gene1 may not mediate gene2
+gene1 may not modulate gene2
+gene1 may not dehydrogenate gene2
+gene1 may not influence gene2
+gene1 may not dephosphorylate gene2
+gene1 may not phosphorylate gene2
+gene1 may not regulate gene2
+gene1 might not interact with gene2
+gene1 might not bind gene2
+gene1 might not react with gene2
+gene1 might not pair with gene2
+gene1 might not conjugate gene2
+gene1 might not attache with gene2
+gene1 might not mediate gene2
+gene1 might not modulate gene2
+gene1 might not dehydrogenate gene2
+gene1 might not influence gene2
+gene1 might not dephosphorylate gene2
+gene1 might not phosphorylate gene2
+gene1 might not regulate gene2
+gene1 clearly does not interact with gene2
+gene1 clearly does not bind gene2
+gene1 clearly does not react with gene2
+gene1 clearly does not pair with gene2
+gene1 clearly does not conjugate gene2
+gene1 clearly does not attach with gene2
+gene1 clearly does not mediate gene2
+gene1 clearly does not modulate gene2
+gene1 clearly does not dehydrogenate gene2
+gene1 clearly does not influence gene2
+gene1 clearly does not dephosphorylate gene2
+gene1 clearly does not phosphorylate gene2
+gene1 clearly does not regulate gene2
+gene1 can not directly interact with gene2
+gene1 can not directly bind gene2
+gene1 can not directly react with gene2
+gene1 can not directly pair with gene2
+gene1 can not directly conjugate gene2
+gene1 can not directly attache with gene2
+gene1 can not directly mediate gene2
+gene1 can not directly modulate gene2
+gene1 can not directly dehydrogenate gene2
+gene1 can not directly influence gene2
+gene1 can not directly dephosphorylate gene2
+gene1 can not directly phosphorylate gene2
+gene1 can not directly regulate gene2
+gene1 evidently can not interact with gene2
+gene1 evidently can not bind gene2
+gene1 evidently can not react with gene2
+gene1 evidently can not pair with gene2
+gene1 evidently can not conjugate gene2
+gene1 evidently can not attache with gene2
+gene1 evidently can not mediate gene2
+gene1 evidently can not modulate gene2
+gene1 evidently can not dehydrogenate gene2
+gene1 evidently can not influence gene2
+gene1 evidently can not dephosphorylate gene2
+gene1 evidently can not phosphorylate gene2
+gene1 evidently can not regulate gene2
+no binding of gene1 by gene2
+no conjugation of gene1 by gene2
+no attachment of gene1 by gene2
+no mediation of gene1 by gene2
+no modulation of gene1 by gene2
+no dehydrogenation of gene1 by gene2
+no regulation of gene1 by gene2
+no phosphorylation of gene1 by gene2
+no dephosphorylation of gene1 by gene2

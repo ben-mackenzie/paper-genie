@@ -1,0 +1,199 @@
+interact of gene1 and gene2	1
+bind of gene1 and gene2	1
+reaction of gene1 and gene2	1
+pair of gene1 and gene2	1
+associ of gene1 and gene2	1
+attach of gene1 and gene2	1
+attach of gene1 and gene2	1
+conjug of gene1 and gene2	1
+gene1 interact with gene2	1
+gene1 bind gene2	1
+gene1 react with gene2	1
+gene1 pair with gene2	1
+gene1 conjug gene2	1
+gene1 attach with gene2	1
+gene1 mediat gene2	1
+gene1 modul gene2	1
+gene1 dehydrogen gene2	1
+gene1 influenc gene2	1
+gene1 dephosphoryl gene2	1
+gene1 phosphoryl gene2	1
+gene1 regul gene2	1
+gene1 clearli interact with gene2	1
+gene1 clearli bind gene2	1
+gene1 clearli react with gene2	1
+gene1 clearli pair with gene2	1
+gene1 clearli conjug gene2	1
+gene1 clearli attach with gene2	1
+gene1 clearli mediat gene2	1
+gene1 clearli modul gene2	1
+gene1 clearli dehydrogen gene2	1
+gene1 clearli influenc gene2	1
+gene1 clearli dephosphoryl gene2	1
+gene1 clearli phosphoryl gene2	1
+gene1 clearli regul gene2	1
+gene1 directli interact with gene2	1
+gene1 directli bind gene2	1
+gene1 directli react with gene2	1
+gene1 directli pair with gene2	1
+gene1 directli conjug gene2	1
+gene1 directli attach with gene2	1
+gene1 directli mediat gene2	1
+gene1 directli modul gene2	1
+gene1 directli dehydrogen gene2	1
+gene1 directli influenc gene2	1
+gene1 directli dephosphoryl gene2	1
+gene1 directli phosphoryl gene2	1
+gene1 directli regul gene2	1
+gene1 evid interact with gene2	1
+gene1 evid bind gene2	1
+gene1 evid react with gene2	1
+gene1 evid pair with gene2	1
+gene1 evid conjug gene2	1
+gene1 evid attach with gene2	1
+gene1 evid mediat gene2	1
+gene1 evid modul gene2	1
+gene1 evid dehydrogen gene2	1
+gene1 evid influenc gene2	1
+gene1 evid dephosphoryl gene2	1
+gene1 evid phosphoryl gene2	1
+gene1 evid regul gene2	1
+bind of gene1 by gene2	1
+conjug of gene1 by gene2	1
+attach of gene1 by gene2	1
+mediat of gene1 by gene2	1
+modul of gene1 by gene2	1
+dehydrogen of gene1 by gene2	1
+regul of gene1 by gene2	1
+phosphoryl of gene1 by gene2	1
+dephosphoryl of gene1 by gene2	1
+gene1 and gene2	0
+gene1 like gene2	0
+gene1 or gene2	0
+gene1 with gene2	0
+gene1 unlik gene2	0
+gene1 at gene2	0
+gene1 in gene2	0
+gene1 of gene2	0
+gene1 around gene2	0
+no interact between gene1 and gene2	0
+no bind between gene1 and gene2	0
+no reaction between gene1 and gene2	0
+no pair between gene1 and gene2	0
+no associ between gene1 and gene2	0
+no attach between gene1 and gene2	0
+no attach between gene1 and gene2	0
+no conjug between gene1 and gene2	0
+gene1 doe not interact with gene2	0
+gene1 doe not bind gene2	0
+gene1 doe not react with gene2	0
+gene1 doe not pair with gene2	0
+gene1 doe not conjug gene2	0
+gene1 doe not attach with gene2	0
+gene1 doe not mediat gene2	0
+gene1 doe not modul gene2	0
+gene1 doe not dehydrogen gene2	0
+gene1 doe not influenc gene2	0
+gene1 doe not dephosphoryl gene2	0
+gene1 doe not phosphoryl gene2	0
+gene1 doe not regul gene2	0
+gene1 can not interact with gene2	0
+gene1 can not bind gene2	0
+gene1 can not react with gene2	0
+gene1 can not pair with gene2	0
+gene1 can not conjug gene2	0
+gene1 can not attach with gene2	0
+gene1 can not mediat gene2	0
+gene1 can not modul gene2	0
+gene1 can not dehydrogen gene2	0
+gene1 can not influenc gene2	0
+gene1 can not dephosphoryl gene2	0
+gene1 can not phosphoryl gene2	0
+gene1 can not regul gene2	0
+gene1 will not interact with gene2	0
+gene1 will not bind gene2	0
+gene1 will not react with gene2	0
+gene1 will not pair with gene2	0
+gene1 will not conjug gene2	0
+gene1 will not attach with gene2	0
+gene1 will not mediat gene2	0
+gene1 will not modul gene2	0
+gene1 will not dehydrogen gene2	0
+gene1 will not influenc gene2	0
+gene1 will not dephosphoryl gene2	0
+gene1 will not phosphoryl gene2	0
+gene1 will not regul gene2	0
+gene1 may not interact with gene2	0
+gene1 may not bind gene2	0
+gene1 may not react with gene2	0
+gene1 may not pair with gene2	0
+gene1 may not conjug gene2	0
+gene1 may not attach with gene2	0
+gene1 may not mediat gene2	0
+gene1 may not modul gene2	0
+gene1 may not dehydrogen gene2	0
+gene1 may not influenc gene2	0
+gene1 may not dephosphoryl gene2	0
+gene1 may not phosphoryl gene2	0
+gene1 may not regul gene2	0
+gene1 might not interact with gene2	0
+gene1 might not bind gene2	0
+gene1 might not react with gene2	0
+gene1 might not pair with gene2	0
+gene1 might not conjug gene2	0
+gene1 might not attach with gene2	0
+gene1 might not mediat gene2	0
+gene1 might not modul gene2	0
+gene1 might not dehydrogen gene2	0
+gene1 might not influenc gene2	0
+gene1 might not dephosphoryl gene2	0
+gene1 might not phosphoryl gene2	0
+gene1 might not regul gene2	0
+gene1 clearli doe not interact with gene2	0
+gene1 clearli doe not bind gene2	0
+gene1 clearli doe not react with gene2	0
+gene1 clearli doe not pair with gene2	0
+gene1 clearli doe not conjug gene2	0
+gene1 clearli doe not attach with gene2	0
+gene1 clearli doe not mediat gene2	0
+gene1 clearli doe not modul gene2	0
+gene1 clearli doe not dehydrogen gene2	0
+gene1 clearli doe not influenc gene2	0
+gene1 clearli doe not dephosphoryl gene2	0
+gene1 clearli doe not phosphoryl gene2	0
+gene1 clearli doe not regul gene2	0
+gene1 can not directli interact with gene2	0
+gene1 can not directli bind gene2	0
+gene1 can not directli react with gene2	0
+gene1 can not directli pair with gene2	0
+gene1 can not directli conjug gene2	0
+gene1 can not directli attach with gene2	0
+gene1 can not directli mediat gene2	0
+gene1 can not directli modul gene2	0
+gene1 can not directli dehydrogen gene2	0
+gene1 can not directli influenc gene2	0
+gene1 can not directli dephosphoryl gene2	0
+gene1 can not directli phosphoryl gene2	0
+gene1 can not directli regul gene2	0
+gene1 evid can not interact with gene2	0
+gene1 evid can not bind gene2	0
+gene1 evid can not react with gene2	0
+gene1 evid can not pair with gene2	0
+gene1 evid can not conjug gene2	0
+gene1 evid can not attach with gene2	0
+gene1 evid can not mediat gene2	0
+gene1 evid can not modul gene2	0
+gene1 evid can not dehydrogen gene2	0
+gene1 evid can not influenc gene2	0
+gene1 evid can not dephosphoryl gene2	0
+gene1 evid can not phosphoryl gene2	0
+gene1 evid can not regul gene2	0
+no bind of gene1 by gene2	0
+no conjug of gene1 by gene2	0
+no attach of gene1 by gene2	0
+no mediat of gene1 by gene2	0
+no modul of gene1 by gene2	0
+no dehydrogen of gene1 by gene2	0
+no regul of gene1 by gene2	0
+no phosphoryl of gene1 by gene2	0
+no dephosphoryl of gene1 by gene2	0
