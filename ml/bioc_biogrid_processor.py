@@ -3,7 +3,7 @@ import re
 from itertools import permutations
 from bioc import *
 
-dtd_file = 'bioc.dtd'
+dtd_file = '../datasets/bioc-original/bioc.dtd'
 
 
 def read_bioc_file(bioc_file, dtd_valid_file):
@@ -125,18 +125,18 @@ def mkdir(path):
 
 if __name__ == '__main__':
     print("Reading corpus files")
-    bioc_corpus = read_bioc_files('./bioc-corpus', dtd_file)
+    bioc_corpus = read_bioc_files('../datasets/bioc-original/BioC-BioGRID', dtd_file)
     print("Processing")
     bioc_corpus = normalize_gene_names(bioc_corpus)
 
-    directory = './data-output/'
+    directory = '../datasets/testing/'
     mkdir(directory)
 
     print("Writing output")
-    with open(directory + '/bioc-positives.txt', 'w') as f:
+    with open(directory + '/BioC-BioGRID-positives.txt', 'w') as f:
         f.writelines('\n'.join(bioc_corpus[0]))
 
-    with open(directory + '/bioc-negatives.txt', 'w') as f:
+    with open(directory + '/BioC-BioGRID-negatives.txt', 'w') as f:
         f.writelines('\n'.join(bioc_corpus[1]))
 
     print("Output written successfully")

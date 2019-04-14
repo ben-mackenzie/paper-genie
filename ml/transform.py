@@ -3,12 +3,6 @@ import csv
 import nltk
 
 
-def read_file(file_name):
-    with open(file_name, 'r') as f:
-        lines = f.readlines()
-        return lines
-
-
 def transform(sentences_list):
     stemmer = nltk.stem.PorterStemmer()
     transformed = []
@@ -26,7 +20,16 @@ def transform(sentences_list):
     return transformed
 
 
+def read_file(file_name):
+    with open(file_name, 'r') as f:
+        lines = f.readlines()
+        return lines
+
+
 def trim(words, window_size=3):
+    if 'gene1' not in words or 'gene2' not in words:
+        return words[0:]
+
     first = max(words.index('gene1') - window_size, 0)
     second = min(words.index('gene2') + window_size, len(words))
     trimmed = words[first:second]
@@ -34,8 +37,8 @@ def trim(words, window_size=3):
 
 
 def word_removal(words):
-    stop_words = set(nltk.corpus.stopwords.words('english'))
-    words = [w for w in words if w not in stop_words]
+    #stop_words = set(nltk.corpus.stopwords.words('english'))
+    #words = [w for w in words if w not in stop_words]
 
     short_words = [x for x in words if len(x) < 2]
     remove_from_list(words, short_words)
@@ -59,8 +62,8 @@ def mkdir(path):
 
 if __name__ == "__main__":
     print('Reading files')
-    positives = read_file('./data-output/bioc-positives.txt')
-    negatives = read_file('./data-output/bioc-negatives.txt')
+    positives = read_file('../datasets/training/positives.txt')
+    negatives = read_file('../datasets/training/negatives.txt')
 
     print('Transforming positives')
     transformed_positives = transform(positives)
@@ -77,10 +80,10 @@ if __name__ == "__main__":
     all.extend(non_relations)
 
     print('Writing output')
-    directory = './data-output/'
+    directory = '../datasets/'
     mkdir(directory)
 
-    with open(directory + '/bioc-tranformed.txt', 'w') as f:
+    with open(directory + 'training/training-data.txt', 'wb') as f:
         tsv_writer = csv.writer(f, delimiter='\t')
         tsv_writer.writerows(all)
 
