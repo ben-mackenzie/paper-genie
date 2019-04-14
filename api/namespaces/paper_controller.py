@@ -53,8 +53,8 @@ parser = api.parser()
 parser.add_argument('file', type=FileStorage, location='files', required=True)
 
 # paths
-gene_names_file = '../genes/reviewed-home-sapien-genes.tab'
-UPLOAD_FOLDER = '../uploaded_papers'
+gene_names_file = './genes/reviewed-home-sapien-genes.tab'
+UPLOAD_FOLDER = './uploaded_papers'
 
 genes = detector.read_genes_from_tsv(gene_names_file, ['Gene names  (primary )', 'Gene names  (synonym )'])
 

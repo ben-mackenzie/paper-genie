@@ -9,6 +9,14 @@ import nltk
 import requests
 from tika import parser
 
+from ml.classifier import train_classifier, classify_single
+
+
+#TODO: Put this somewhere else
+classifier = train_classifier('./datasets/training/training-data.txt')
+#TODO: Need to replace the gene names with gene1 and gene2, and make the sentence lower case
+is_interaction = classify_single('gene1 interacts with gene2', classifier)
+
 
 def pdf_to_txt(pdf_file_name, out_txt_file_name):
     content = parser.from_file(pdf_file_name)
@@ -168,3 +176,4 @@ if __name__ == "__main__":
         # print(words_stemmed)
         print(result)
         print('')
+

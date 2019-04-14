@@ -2,16 +2,52 @@ import csv
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import classification_report, accuracy_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
 from sklearn.naive_bayes import MultinomialNB
 
 from ml.transform import transform
 
 
 def train_classifier(training_file_name):
+    """
+    Trains a classifier
+    :param training_file_name: The TSV training file name
+    :return: The classifer that itself is a tuple of the classifier and the feature model classifier
+    """
     train_data, train_labels = read_training_data_file(training_file_name)
     train_data_features, feature_model = bag_of_words(train_data)
     model = MultinomialNB().fit(train_data_features, train_labels)
-    return model, feature_model, train_data, train_labels
+
+    print('Classifier trained')
+    return model, feature_model
+
+
+def classify_single(sentence, classifier):
+    """
+    Classifies the given sentence as an interaction or non-interaction
+    :param sentence: The str sentence
+    :param classifier: The classifier returned by train_classifier method
+    :return: 1 is the sentence contains an interaction, 0 otherwise
+    """
+    classification = classify([sentence], classifier)
+    if len(classification) > 0:
+        return classification[0]
+    else:
+        return 0
+
+
+def classify(sentences_list, classifier):
+    """
+    Classifies a list of sentence as an interaction or non-interaction
+    :param sentences_list: The list [str] of sentences
+    :param classifier: The classifier returned by train_classifier method
+    :return: 1 is the sentence contains an interaction, 0 otherwise
+    """
+    transformed_sentence = transform(sentences_list)
+    features = classifier[1].transform(transformed_sentence)
+    prediction = classifier[0].predict(features)
+    return prediction.tolist()
 
 
 def read_training_data_file(file_name):
@@ -52,16 +88,17 @@ if __name__ == "__main__":
     test_data = positive_bioc + negative_bioc
     test_labels = ([1] * len(positive_bioc)) + ([0] * len(negative_bioc))
 
-    model, feature_model, train_data, train_labels = train_classifier(file_name)
-    train_data_features = feature_model.transform(train_data)
-    test_data_features = feature_model.transform(test_data)
+    classifier = train_classifier(file_name)
 
-    train_predict = model.predict(train_data_features)
-    test_predict = model.predict(test_data_features)
+    train_data, train_labels = read_training_data_file(file_name)
+
+    train_predict = classify(train_data, classifier)
+    test_predict = classify(test_data, classifier)
 
     train_report = classification_report(train_labels, train_predict)
     test_report = classification_report(test_labels, test_predict)
 
+    print(classify_single('gene1 interacts with gene2', classifier))
     print(accuracy_score(train_predict, train_labels))
     print(accuracy_score(test_predict, test_labels))
     print(train_report)
