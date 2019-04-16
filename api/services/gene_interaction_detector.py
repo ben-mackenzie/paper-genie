@@ -177,8 +177,8 @@ def detect_interactions_with_classifier(genes, paper):
                 interacting_genes.append(
                     {"gene1": gene_1, "gene2": gene_2, "is_interaction": is_interaction, "sentence": sentence})
 
-                # update to after having evaluated
-                modify_sentence = modify_sentence.replace(gene_1, "XXXX", 1)
+                # update to 'OTHER_GENE' after having evaluated
+                modify_sentence = modify_sentence.replace(gene_1, "OTHER_GENE", 1)
 
     return interacting_genes
 
