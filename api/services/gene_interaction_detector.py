@@ -11,10 +11,9 @@ from tika import parser
 
 from ml.classifier import train_classifier, classify_single
 
-
-#TODO: Put this somewhere else
-classifier = train_classifier('./datasets/training/training-data.txt')
-#TODO: Need to replace the gene names with gene1 and gene2, and make the sentence lower case
+# TODO: Put this somewhere else
+classifier = train_classifier('datasets/training/training-data.txt')
+# TODO: Need to replace the gene names with gene1 and gene2, and make the sentence lower case
 is_interaction = classify_single('gene1 interacts with gene2', classifier)
 
 
@@ -79,7 +78,7 @@ def get_gene_details(genes, paper_content, detected_interactions=None):
                     if gene["name"] in combo:
                         for known_interaction in gene["known_interactions"]:
                             pair_interaction = (
-                            known_interaction['preferredName_A'], known_interaction['preferredName_B'])
+                                known_interaction['preferredName_A'], known_interaction['preferredName_B'])
                             if pair_interaction == combo or tuple(reversed(pair_interaction)) == combo:
                                 interacts = True
                 combo_interactions.append({"combo": combo, "interacts": interacts})
@@ -144,6 +143,46 @@ def detect_interactions(genes, paper):
     return gene_pairs
 
 
+def sort_sentence_genes(genes, sentence):
+    tokenizer = nltk.RegexpTokenizer(r'\w[\w-][\w.][\w/]+')
+    sentence_text = tokenizer.tokenize(sentence)
+    sorted = []
+    for word in sentence_text:
+        if word in genes:
+            sorted.append(word)
+
+    return sorted
+
+
+def detect_interactions_with_classifier(genes, paper):
+    gene_sentences = search_gene_sentences(genes, paper, 2)
+    interacting_genes = []
+    gene_pairs = []
+    for match in gene_sentences:
+        sentence = match['sentence']
+        sentence_genes = list(detect_genes(genes, sentence))
+        sentence_genes = sort_sentence_genes(sentence_genes,sentence)
+        # if number of genes is > 2 step wise compare 2 by two to check if they interact
+        modify_sentence = sentence
+        if len(sentence_genes) > 1:
+
+            for i in range(0, len(sentence_genes) - 1):
+                gene_1 = sentence_genes[i]
+                gene_2 = sentence_genes[i + 1]
+
+                new_sentence = modify_sentence.replace(gene_1, "gene1", 1)
+                new_sentence = new_sentence.replace(gene_2, "gene2", 1)
+
+                is_interaction = classify_single(new_sentence, classifier)
+                interacting_genes.append(
+                    {"gene1": gene_1, "gene2": gene_2, "is_interaction": is_interaction, "sentence": sentence})
+
+                # update to after having evaluated
+                modify_sentence = modify_sentence.replace(gene_1, "XXXX", 1)
+
+    return interacting_genes
+
+
 if __name__ == "__main__":
     gene_names_file = './genes/reviewed-home-sapien-genes.tab'
     paper_file_name = './corpus/3.txt'
@@ -176,4 +215,3 @@ if __name__ == "__main__":
         # print(words_stemmed)
         print(result)
         print('')
-

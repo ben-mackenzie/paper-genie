@@ -33,7 +33,7 @@ gene_model = api.model('Gene Model', {
 interaction_details_model = api.model('Interaction Details Model', {
     'interacts': fields.Boolean(description="Whether a pair of genes interact or not"),
     'combo': fields.List(fields.String, required=True,
-                                       description="Pair of genes")
+                         description="Pair of genes")
 })
 
 interaction_model = api.model('Interaction Model', {
@@ -42,11 +42,19 @@ interaction_model = api.model('Interaction Model', {
                                        description="Pair of genes and whether they interact or not")
 })
 
+classifier_interaction_model = api.model("Classifier Interaction Model",{
+    'gene1':fields.String(description="The first gene in the pair"),
+    'gene2':fields.String(description="The second gene in the pair"),
+    'sentence':fields.String(description="The sentence where the interaction was detected")
+})
+
 response = api.model('Paper', {
     'detected_genes': fields.List(fields.Nested(gene_model), required=True,
                                   description="A list of genes detected in the paper"),
     'interacting_genes': fields.List(fields.Nested(interaction_model), required=True,
-                                     description=" A list of gene pairs, whether they interact or not and the sentence they were detected in")
+                                     description=" A list of gene pairs, whether they interact or not and the sentence they were detected in"),
+    'classified_gene_interaction': fields.List(fields.Nested(classifier_interaction_model), required=True,
+                                               description="A list of gene pair and whether they interact or not based on our custom classifier")
 })
 
 parser = api.parser()
@@ -75,6 +83,8 @@ class Paper(Resource):
         paper = detector.read_paper_text_file(paper_file_name)
 
         detected_interaction = detector.detect_interactions(genes, paper)
+        detected_interaction_classifier = detector.detect_interactions_with_classifier(genes, paper)
         detected_genes, interacting_genes = detector.get_gene_details(genes, paper, detected_interaction)
-        res = {"detected_genes": detected_genes, "interacting_genes": interacting_genes}
+        res = {"detected_genes": detected_genes, "interacting_genes": interacting_genes,
+               "classified_gene_interaction": detected_interaction_classifier}
         return res
