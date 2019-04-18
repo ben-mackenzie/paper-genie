@@ -80,6 +80,7 @@ class GraphUI extends Component {
         const { uploading } = this.state;
 
         const genes = this.state.detected_genes.detected_genes;
+        const classified = this.state.detected_genes.classified_gene_interaction;
         return (
             <div >
                 <AppBar position="static">
@@ -122,8 +123,7 @@ class GraphUI extends Component {
                     
                 </Paper>
                 <h2> Red - Not found in the paper</h2>
-                <h2> Jaccard score: 0.0 [TODO]</h2>
-                <DiffGraphVis genes={genes}/>
+                <DiffGraphVis genes={genes} classified={classified}/>
     
             </div>
             
