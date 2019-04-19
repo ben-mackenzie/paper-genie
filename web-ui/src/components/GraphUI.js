@@ -44,7 +44,7 @@ class GraphUI extends Component {
     handleUploadClicked = () => {
         console.log("analyze clicked");
 
-        this.setState({ uploading: true })
+        this.setState({ uploading: true, detected_genes: {} })
 
         const formData = new FormData();
         formData.append('file', this.state.file)
@@ -115,9 +115,6 @@ class GraphUI extends Component {
                             <Typography >Visualization Settings</Typography>
                         </ExpansionPanelSummary>
                         <ExpansionPanelDetails>
-                            <Button>
-                                Setting 1
-                            </Button>
                         </ExpansionPanelDetails>
                     </ExpansionPanel>
                     

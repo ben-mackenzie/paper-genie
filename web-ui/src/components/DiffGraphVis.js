@@ -14,6 +14,7 @@ export default class DiffGraphVis extends Component {
 
     componentDidUpdate() {
         if (this.props.genes) {
+            clearGraph();
             drawGraph(this.props.genes, this.props.classified);
         }
     }
@@ -73,6 +74,11 @@ function getAll(genes) {
         });
     });
     return allInter;
+}
+
+function clearGraph() {
+    var svg = d3.select("#main-canvas");
+    svg.selectAll("*").remove();
 }
 
 function drawGraph(genes, classified) {
