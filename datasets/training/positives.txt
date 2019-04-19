@@ -67,3 +67,6 @@ dehydrogenation of gene1 by gene2
 regulation of gene1 by gene2
 phosphorylation of gene1 by gene2
 dephosphorylation of gene1 by gene2
+there is physical interaction between gene1 and gene2
+GENE1 coeluted with GENE2
+We observed that GENE1 coeluted with GENE2 suggesting that they remain associated

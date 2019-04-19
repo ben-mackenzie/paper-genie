@@ -128,3 +128,8 @@ no dehydrogenation of gene1 by gene2
 no regulation of gene1 by gene2
 no phosphorylation of gene1 by gene2
 no dephosphorylation of gene1 by gene2
+gene1 or other_gene might affect gene2
+gene1 might interact with gene2
+gene1 might mediate gene2
+To determine if GENE1 functionally interact with GENE2
+To determine if GENE1 and GENE2 functionally interact with OTHER_GENE

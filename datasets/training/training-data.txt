@@ -67,6 +67,9 @@ dehydrogen of gene1 by gene2	1
 regul of gene1 by gene2	1
 phosphoryl of gene1 by gene2	1
 dephosphoryl of gene1 by gene2	1
+physic interact between gene1 and gene2	1
+gene1 coelut with gene2	1
+we observ that gene1 coelut with gene2 suggest that	1
 gene1 and gene2	0
 gene1 like gene2	0
 gene1 or gene2	0
@@ -197,3 +200,8 @@ no dehydrogen of gene1 by gene2	0
 no regul of gene1 by gene2	0
 no phosphoryl of gene1 by gene2	0
 no dephosphoryl of gene1 by gene2	0
+gene1 or other_gen might affect gene2	0
+gene1 might interact with gene2	0
+gene1 might mediat gene2	0
+to determin if gene1 function interact with gene2	0
+to determin if gene1 and gene2 function interact	0

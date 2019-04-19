@@ -1,6 +1,7 @@
 import os
 import re
 from itertools import permutations
+import nltk
 from bioc import *
 
 dtd_file = '../datasets/bioc-original/bioc.dtd'
@@ -78,7 +79,9 @@ def normalize_gene_names(bioc_corpus):
             positives.extend(gene_replacement(interaction, item['genes']))
 
     for item in bioc_corpus['without_interactions']:
-        negatives.extend(gene_replacement(item['text'], item['genes']))
+        sentences = nltk.sent_tokenize(item['text'])
+        for s in sentences:
+            negatives.extend(gene_replacement(s, item['genes']))
 
     return positives, negatives
 
@@ -97,7 +100,9 @@ def gene_replacement(text, genes):
         if pair[0] in text and pair[1] in text:
             other_genes = genes.difference(pair)
             modified_sentence = replace_genes(text, pair, other_genes)
-            sentences.append(modified_sentence)
+            if 'GENE1' in modified_sentence and 'GENE2' in modified_sentence and \
+                    (modified_sentence.index('GENE1') < modified_sentence.index('GENE2')):
+                sentences.append(modified_sentence)
 
     return sentences
 

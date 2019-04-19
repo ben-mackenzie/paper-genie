@@ -5,6 +5,7 @@ from sklearn.metrics import classification_report, accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.model_selection import train_test_split
 
 from ml.transform import transform
 
@@ -17,7 +18,7 @@ def train_classifier(training_file_name):
     """
     train_data, train_labels = read_training_data_file(training_file_name)
     train_data_features, feature_model = bag_of_words(train_data)
-    model = MultinomialNB().fit(train_data_features, train_labels)
+    model = LogisticRegression().fit(train_data_features, train_labels)
 
     print('Classifier trained')
     return model, feature_model
@@ -64,6 +65,7 @@ def read_training_data_file(file_name):
 def read_testing_data_file(file_name):
     with open(file_name, 'r') as f:
         lines = f.readlines()
+        lines = [l.strip() for l in lines]
         return lines
 
 
@@ -85,6 +87,22 @@ if __name__ == "__main__":
     positive_bioc = read_testing_data_file(datasets_directory + 'testing/BioC-BioGRID-positives.txt')
     negative_bioc = read_testing_data_file(datasets_directory + 'testing/BioC-BioGRID-negatives.txt')
 
+    # data, labels = read_training_data_file(file_name)
+    # train_data, test_data, train_labels, test_labels = train_test_split(data, labels)
+    # train_data_features, feature_model = bag_of_words(train_data)
+    # model = MultinomialNB().fit(train_data_features, train_labels)
+    #
+    # test_data_features = feature_model.transform(test_data)
+    # train_predict = model.predict(train_data_features)
+    # test_predict = model.predict(test_data_features)
+    #
+    # train_report = classification_report(train_labels, train_predict)
+    # test_report = classification_report(test_labels, test_predict)
+    #
+    # print(accuracy_score(train_predict, train_labels))
+    # print(accuracy_score(test_predict, test_labels))
+
+
     test_data = positive_bioc + negative_bioc
     test_labels = ([1] * len(positive_bioc)) + ([0] * len(negative_bioc))
 
@@ -95,11 +113,28 @@ if __name__ == "__main__":
     train_predict = classify(train_data, classifier)
     test_predict = classify(test_data, classifier)
 
+    should_be_positives = []
+    should_be_negatives = []
+    for i in range(len(test_predict)):
+        if test_predict[i] != test_labels[i]:
+            if test_labels[i] == 0:
+                should_be_negatives.append(test_data[i])
+            else:
+                should_be_positives.append(test_data[i])
+
+    print('should be 1:')
+    for s in should_be_positives:
+        print(s)
+
+    print('should be 0:')
+    for s in should_be_negatives:
+        print(s)
+
     train_report = classification_report(train_labels, train_predict)
     test_report = classification_report(test_labels, test_predict)
 
-    print(classify_single('gene1 interacts with gene2', classifier))
-    print(accuracy_score(train_predict, train_labels))
+    # print(classify_single('gene1 interacts with gene2', classifier))
+    # print(accuracy_score(train_predict, train_labels))
     print(accuracy_score(test_predict, test_labels))
-    print(train_report)
+    # print(train_report)
     print(test_report)
