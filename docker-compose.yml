@@ -7,4 +7,10 @@ services:
     image: heartbreak-ui
     ports:
       - "4000:5000"
-
+  heartbreak-backend:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    image: heartbreak-backend
+    ports:
+        - "5000:5000"

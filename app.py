@@ -15,4 +15,4 @@ CORS(app)
 # class HelloWorld(Resource):
 #     def get(self):
 #         return run_interaction()
-app.run(debug=True)
+app.run(debug=False, host='0.0.0.0')
