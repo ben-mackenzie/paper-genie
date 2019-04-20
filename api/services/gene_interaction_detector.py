@@ -17,10 +17,9 @@ classifier = train_classifier('datasets/training/training-data.txt')
 is_interaction = classify_single('gene1 interacts with gene2', classifier)
 
 
-def pdf_to_txt(pdf_file_name, out_txt_file_name):
+def pdf_to_text(pdf_file_name):
     content = parser.from_file(pdf_file_name)
-    with open(out_txt_file_name, 'w') as file:
-        file.write(content['content'])
+    return content['content']
 
 
 # use this method to find which proteins have been mentioned in the paper

@@ -80,7 +80,11 @@ class Paper(Resource):
 
         paper_file.save(os.path.join(UPLOAD_FOLDER, secure_filename(paper_file.filename)))
         paper_file_name = os.path.join(UPLOAD_FOLDER, paper_file.filename)
-        paper = detector.read_paper_text_file(paper_file_name)
+
+        if '.pdf' in paper_file_name:
+            paper = detector.pdf_to_text(paper_file_name)
+        else:
+            paper = detector.read_paper_text_file(paper_file_name)
 
         detected_interaction = detector.detect_interactions(genes, paper)
         detected_interaction_classifier = detector.detect_interactions_with_classifier(genes, paper)
