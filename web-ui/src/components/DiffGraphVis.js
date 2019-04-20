@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import * as d3 from "d3";
-
+import * as d3 from "d3v4";
+import * as webcola from "webcola";
 import * as jaccard from "jaccard";
 
 const width = 1200, height = 600;
@@ -100,53 +100,100 @@ function drawGraph(genes, classified) {
         .attr("x", width/2)
         .attr('y', 20)
         .attr('font-size', 24);
-    var force = d3.forceSimulation()
-        .nodes(d3.values(nodes))
-        .force("link", d3.forceLink(links).distance(40))
-        .force('center', d3.forceCenter(width / 2, height / 2))
-        .force("x", d3.forceX())
-        .force("y", d3.forceY())
-        .force("charge", d3.forceManyBody().strength(-100))
-        .alphaTarget(1)
-        .on("tick", tick);
-    const node = svg.selectAll(".node")
-        .data(force.nodes())
-      .enter().append("g");
-    const path = svg.append("g")
-      .selectAll("path")
-      .data(links)
-      .enter()
-      .append("path")
-      .attr("class", "link")
-      .style("stroke",(d) => {
-          if (d.overlap) return "green";
-        })
-        .style("stroke-width",(d) => {
-            if (d.overlap) return "6.5px";
-          })
-        ;
-    node.append("circle")
-      .attr("r", 15)
-      .attr("fill", (d) => {
-        if (inPub.has(d.name)) {
-            return 'green';
-        } else return 'red';
-      });
-     node.append("text").text((d) => d.name);
-    function tick() {
-        path.attr("d", (d) => {  
-            const dx = d.target.x - d.source.x,
-                dy = d.target.y - d.source.y,
-                dr = Math.sqrt(dx * dx + dy * dy);
-            return "M" +
-                d.source.x + "," +
-                d.source.y + "A" +
-                dr + "," + dr + " 0 0,1 " +
-                d.target.x + "," +
-                d.target.y;
-        });
-        node.attr("transform", (d) => {
-            return "translate(" + d.x + "," + d.y + ")"; })
-    };
-}
 
+    var cola = webcola.d3adaptor(d3)
+      .avoidOverlaps(true)
+      .size([width, height]);
+
+    cola.nodes(d3.values(nodes))
+        .links(links)
+        //.symmetricDiffLinkLengths(10)
+        .jaccardLinkLengths(75,0.7)
+        .start(30);
+
+    var link = svg.selectAll("link")
+        .data(links)
+      .enter().append("line")
+        .attr("class", "link")
+        .style("stroke", (d) => {
+          if (d.overlap) {
+            return "#3F52B5";
+          } else return '#4a154b'; })
+        .style("stroke-opacity", .75)
+        .style("stroke-width", (d) => {
+            if (d.overlap) { return "6px";
+          } else return "2px" });
+
+    var node = svg.selectAll("node")
+                  .data(d3.values(nodes))
+                  .enter().append("g");
+
+    var circle = node.append("circle")
+        .attr("class", "node")
+        .attr("r", (d) => {
+          if (inPub.has(d.name)) {
+              return 28;
+          } else return 20;
+        })
+        .style("fill", (d) => {
+          if (inPub.has(d.name)) {
+              return '#3F52B5';
+          } else return '#4a154b';
+        })
+        .style("stroke", "#fff")
+        .style("stroke-width", (d) => {
+          if (inPub.has(d.name)) {
+              return "3px";
+          } else return "2px";
+        })
+        .call(cola.drag);
+
+    var label = node.append("svg:text")
+        .text(function (d) { return d.name; })
+        .style("paint-order", "stroke")
+        .style("text-anchor", "middle")
+        .style("fill", "white")
+        .style("font-family", "helvetica neue")
+        .style("font-weight", "bold")
+        .style("stroke", (d) => {
+          if (inPub.has(d.name)) {
+              return '#3F52B5';
+          } else return '#4a154b';
+        })
+        .style("stroke-width", (d) => {
+          if (inPub.has(d.name)) {
+              return "8px";
+          } else return "6px";
+        })
+        .style("font-size", (d) => {
+          if (inPub.has(d.name)) {
+              return 19;
+          } else return 13;
+        })
+        .style("stroke-linejoin", "round")
+        .style("stroke-linecap", "round");
+
+    cola.on("tick", function () {
+        link.attr("x1", function (d) { return d.source.x; })
+            .attr("y1", function (d) { return d.source.y; })
+            .attr("x2", function (d) { return d.target.x; })
+            .attr("y2", function (d) { return d.target.y; });
+
+        node.attr("cx", function (d) { return d.x; })
+            .attr("cy", function (d) { return d.y; });
+
+            circle.attr("cx", function (d) {
+                return d.x;
+            })
+            .attr("cy", function (d) {
+                return d.y;
+            });
+
+        label.attr("x", function (d) {
+                return d.x;
+        })
+            .attr("y", function (d) {
+                return d.y + 5; });
+    });
+
+}
