@@ -3,7 +3,7 @@ import * as d3 from "d3v4";
 import * as webcola from "webcola";
 import * as jaccard from "jaccard";
 
-const width = 1200, height = 600;
+const width = 1400, height = 900;
 
 export default class DiffGraphVis extends Component {
     render() {
@@ -145,6 +145,55 @@ function drawGraph(genes, classified, interacting) {
         .attr('y', 20)
         .attr('font-size', 24);
 
+    var nodesLegendData = [
+        {"color": "#3F52B5", "text": "Paper and StringDB"},
+        {"color": "#4a154b", "text": "StringDB only"}
+    ]
+
+    var nodesLegend = svg.selectAll('.nodelegend').data(nodesLegendData);
+    var nodesLegend_g = nodesLegend.enter()
+    .append('g')
+    .attr('class', 'nodelegend')
+
+    nodesLegend_g.append("circle")
+        .attr("fill", d => d['color'])
+        .attr("r", 15)
+        .attr("cx", 15)
+        .attr("cy", (d, i) => 18 + 30*i)
+
+        nodesLegend_g.append("text")
+        .text(d => d["text"])
+        .attr("width", 30)
+        .attr("height", 20)
+        .attr("x", 35)
+        .attr("y", (d, i) => 25 + 25*i)
+
+
+    var edgesLegendData = [
+        {"color": "#7A1470", "text": "Paper and StringDB", "height": 6},
+        {"color": "#E9EB87", "text": "Paper only", "height": 6},
+        {"color": "#4a154b", "text": "StringDB only", "height": 2}
+    ]
+
+    var edgesLegend = svg.selectAll('.edgelegend').data(edgesLegendData);
+    var edgesLegend_g = edgesLegend.enter()
+    .append('g')
+    .attr('class', 'edgelegend')
+
+    edgesLegend_g.append("rect")
+        .attr("fill", d => d['color'])
+        .attr("width", 30)
+        .attr("height", d => d['height'])
+        .attr("x", 0)
+        .attr("y", (d, i) => 70 + 25*i)
+
+    edgesLegend_g.append("text")
+        .text(d => d["text"])
+        .attr("width", 30)
+        .attr("height", 20)
+        .attr("x", 35)
+        .attr("y", (d, i) => 75 + 25*i)
+
     var cola = webcola.d3adaptor(d3)
       .avoidOverlaps(true)
       .size([width, height]);
@@ -201,6 +250,7 @@ function drawGraph(genes, classified, interacting) {
         .style("fill", "white")
         .style("font-family", "helvetica neue")
         .style("font-weight", "bold")
+        .style("user-select", "none")
         .style("stroke", (d) => {
           if (inPub.has(d.name)) {
               return '#3F52B5';

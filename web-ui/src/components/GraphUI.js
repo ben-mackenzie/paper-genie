@@ -120,7 +120,6 @@ class GraphUI extends Component {
                     </ExpansionPanel>
                     
                 </Paper>
-                <h2> Red - Not found in the paper</h2>
                 <DiffGraphVis genes={genes} classified={classified} interacting={interacting}/>
     
             </div>
