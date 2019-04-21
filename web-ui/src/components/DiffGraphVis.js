@@ -161,9 +161,9 @@ function drawGraph(genes, classified, interacting) {
         .attr("class", "link")
         .style("stroke", (d) => {
           if (d.overlap) {
-            return "#3F52B5";
+            return "#7A1470";
           } else if (d.classUnique) {
-            return "#FF0099";
+            return "#E9EB87";
           } else return '#4a154b'; })
         .style("stroke-opacity", .75)
         .style("stroke-width", (d) => {
