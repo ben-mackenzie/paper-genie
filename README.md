@@ -65,7 +65,7 @@ There are two ways to run this project
 
 # Usage
 1. If running through Docker. Navigate to `localhost:4000` else `localhost:3000`
-2. Click the button "Choose File"
+2. Click the button "Choose File". Only pdf and txt file formats are supported.
 3. Select the file `PIIS1097276506003376.pdf` in the `papers` folder in the repository root
 4. Click "ANALYZE FILE"
 5. Wait for the graph
