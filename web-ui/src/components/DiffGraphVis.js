@@ -99,6 +99,29 @@ function getClassificationUnique(interacting) {
     return links;
 }
 
+function removeFalseUnique(links) {
+    const overlapping = {};
+    const filtered = [];
+    links.forEach( (link) => {
+        const id = `${link.source} ${link.target}`;
+        const inv_id = `${link.target} ${link.source}`;
+        if (link.overlap === true && !overlapping[id]) {
+            overlapping[id] = true;
+            overlapping[inv_id] = true;
+            filtered.push(link);
+        }
+    } )
+    links.forEach( (link) => {
+        const id = `${link.source} ${link.target}`;
+        if (overlapping[id]) {
+
+        } else {
+            filtered.push(link);
+        }
+    })
+    return filtered;
+}
+
 function drawGraph(genes, classified, interacting) {
     const found = processClassified(classified);
     const inPub = getInPub(genes);
@@ -106,13 +129,14 @@ function drawGraph(genes, classified, interacting) {
     const score = getScore(allgenes, inPub);
     const classUniqueLinks = getClassificationUnique(interacting);
     const paperLinks = toLinks(genes, found);
-    const links = paperLinks.concat(classUniqueLinks);
+    const linksRedundant = paperLinks.concat(classUniqueLinks);
     const nodes = {};
+    const links = removeFalseUnique(linksRedundant);
     links.forEach((link) => {
         link.source = nodes[link.source] ||
-            (nodes[link.source] = {name: link.source});
+        (nodes[link.source] = {name: link.source});
         link.target = nodes[link.target] ||
-            (nodes[link.target] = {name: link.target});
+        (nodes[link.target] = {name: link.target});
     });
     const svg = d3.select("#main-canvas");
     svg.append("text")
@@ -136,11 +160,10 @@ function drawGraph(genes, classified, interacting) {
       .enter().append("line")
         .attr("class", "link")
         .style("stroke", (d) => {
-          if (d.classUnique) {
-              return "#FF0099";
-          }
           if (d.overlap) {
             return "#3F52B5";
+          } else if (d.classUnique) {
+            return "#FF0099";
           } else return '#4a154b'; })
         .style("stroke-opacity", .75)
         .style("stroke-width", (d) => {
