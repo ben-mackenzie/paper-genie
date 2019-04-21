@@ -15,7 +15,7 @@ export default class DiffGraphVis extends Component {
     componentDidUpdate() {
         if (this.props.genes) {
             clearGraph();
-            drawGraph(this.props.genes, this.props.classified);
+            drawGraph(this.props.genes, this.props.classified, this.props.interacting);
         }
     }
 
@@ -81,12 +81,32 @@ function clearGraph() {
     svg.selectAll("*").remove();
 }
 
-function drawGraph(genes, classified) {
+function getClassificationUnique(interacting) {
+    const links =[];
+    interacting.forEach((entry) => {
+        entry.interaction_details.forEach((interaction) => {
+            if(interaction.interacts) {
+                
+                const link = {
+                    source: interaction.combo[0],
+                    target: interaction.combo[1],
+                    classUnique: true,
+                };
+                links.push(link);
+            }
+        })
+    });
+    return links;
+}
+
+function drawGraph(genes, classified, interacting) {
     const found = processClassified(classified);
     const inPub = getInPub(genes);
     const allgenes = getAll(genes);
     const score = getScore(allgenes, inPub);
-    const links = toLinks(genes, found);
+    const classUniqueLinks = getClassificationUnique(interacting);
+    const paperLinks = toLinks(genes, found);
+    const links = paperLinks.concat(classUniqueLinks);
     const nodes = {};
     links.forEach((link) => {
         link.source = nodes[link.source] ||
@@ -116,12 +136,15 @@ function drawGraph(genes, classified) {
       .enter().append("line")
         .attr("class", "link")
         .style("stroke", (d) => {
+          if (d.classUnique) {
+              return "#FF0099";
+          }
           if (d.overlap) {
             return "#3F52B5";
           } else return '#4a154b'; })
         .style("stroke-opacity", .75)
         .style("stroke-width", (d) => {
-            if (d.overlap) { return "6px";
+            if (d.overlap || d.classUnique) { return "6px";
           } else return "2px" });
 
     var node = svg.selectAll("node")
