@@ -4,6 +4,31 @@ in Spring 2019 at Georgia Institute of Technology
 
 The purpose of this project is to identify protein-protein interactions in biomedical literature
 
+## Directory Structure
+| Item                  | Purpose                                               |
+| ---                   | ---                                                   |
+| app.py                | The backend launch file                               |
+| papers                | Sample PDF papers                                     |
+| ml                    | Contains data processing and classifier training code |
+| api                   | API served by the backend                             |
+| genes                 | Dataset of gene names                                 |
+| datasets              | Training, testing and original datasets               |
+| web-ui                | React front-end                                       |
+
+The project has two parts
+1. Backend
+2. Frontend
+
+### Backend
+The backend is responsible for providing an REST API that takes as input a paper in pdf or txt
+format and outputs a JSON that describes the genes and their interactions.
+When the backend starts, it trains the classifier using the transformed data in the
+`datasets/training` directory
+
+### Frontend
+The frontend is the user-interface made in React. It uses Material-UI to render a modern looking
+frontend for the project. For visualizing the graph D3.js is used.
+
 
 # Setup
 There are two ways to run this project
@@ -58,4 +83,5 @@ There are two ways to run this project
 * [scikit-learn](https://scikit-learn.org/stable/)
 * [PyBioC](https://github.com/2mh/PyBioC)
 * [React](https://reactjs.org/)
+* [D3](https://d3js.org/)
 * [Material-UI](https://material-ui.com/)
