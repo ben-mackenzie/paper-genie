@@ -12,6 +12,9 @@ COPY api/ ./api
 COPY datasets/testing/ ./datasets/testing/
 COPY datasets/training/ ./datasets/training/
 
+RUN apt-get update -y
+RUN apt-get install default-jre -y
+
 RUN pip install --no-cache-dir -r requirements.txt
 RUN python -m nltk.downloader punkt averaged_perceptron_tagger universal_tagset
 
