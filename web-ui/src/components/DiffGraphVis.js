@@ -86,7 +86,7 @@ function getClassificationUnique(interacting) {
     interacting.forEach((entry) => {
         entry.interaction_details.forEach((interaction) => {
             if(interaction.interacts) {
-                
+
                 const link = {
                     source: interaction.combo[0],
                     target: interaction.combo[1],
@@ -141,9 +141,19 @@ function drawGraph(genes, classified, interacting) {
     const svg = d3.select("#main-canvas");
     svg.append("text")
         .text(`Jaccard score:  ${score}`)
-        .attr("x", width/2)
-        .attr('y', 20)
-        .attr('font-size', 24);
+        .attr("x", 5)
+        .attr('y', 50)
+        .attr('font', 'helvetica')
+        .attr('font-weight', 'bold')
+        .attr('font-size', 18);
+
+    svg.append("text")
+        .text(`1: perfect match; 0: no match`)
+        .attr("x", 5)
+        .attr('y', 70)
+        .attr('font', 'helvetica')
+        .attr('font-weight', 'bold')
+        .attr('font-size', 14);
 
     var nodesLegendData = [
         {"color": "#3F52B5", "text": "Paper and StringDB"},
@@ -157,21 +167,21 @@ function drawGraph(genes, classified, interacting) {
 
     nodesLegend_g.append("circle")
         .attr("fill", d => d['color'])
-        .attr("r", 15)
-        .attr("cx", 15)
-        .attr("cy", (d, i) => 18 + 30*i)
+        .attr("r", 10)
+        .attr("cx", 10)
+        .attr("cy", (d, i) => 98 + 30*i)
 
         nodesLegend_g.append("text")
         .text(d => d["text"])
         .attr("width", 30)
         .attr("height", 20)
         .attr("x", 35)
-        .attr("y", (d, i) => 25 + 25*i)
+        .attr("y", (d, i) => 105 + 25*i)
 
 
     var edgesLegendData = [
-        {"color": "#7A1470", "text": "Paper and StringDB", "height": 6},
-        {"color": "#E9EB87", "text": "Paper only", "height": 6},
+        {"color": "#3F52B5", "text": "Paper and StringDB", "height": 4},
+        {"color": "#D46A6A", "text": "Paper only", "height": 4},
         {"color": "#4a154b", "text": "StringDB only", "height": 2}
     ]
 
@@ -185,14 +195,14 @@ function drawGraph(genes, classified, interacting) {
         .attr("width", 30)
         .attr("height", d => d['height'])
         .attr("x", 0)
-        .attr("y", (d, i) => 70 + 25*i)
+        .attr("y", (d, i) => 150 + 25*i)
 
     edgesLegend_g.append("text")
         .text(d => d["text"])
         .attr("width", 30)
         .attr("height", 20)
         .attr("x", 35)
-        .attr("y", (d, i) => 75 + 25*i)
+        .attr("y", (d, i) => 155 + 25*i)
 
     var cola = webcola.d3adaptor(d3)
       .avoidOverlaps(true)
@@ -210,13 +220,13 @@ function drawGraph(genes, classified, interacting) {
         .attr("class", "link")
         .style("stroke", (d) => {
           if (d.overlap) {
-            return "#7A1470";
+            return "3F52B5";//"#129E90";
           } else if (d.classUnique) {
-            return "#E9EB87";
+            return "D46A6A";//"#AA3939";
           } else return '#4a154b'; })
-        .style("stroke-opacity", .75)
+        .style("stroke-opacity", 0.8)
         .style("stroke-width", (d) => {
-            if (d.overlap || d.classUnique) { return "6px";
+            if (d.overlap || d.classUnique) { return "4px";
           } else return "2px" });
 
     var node = svg.selectAll("node")
