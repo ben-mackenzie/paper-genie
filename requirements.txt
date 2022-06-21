@@ -15,7 +15,7 @@ jsonschema==3.0.1
 lxml==4.3.3
 MarkupSafe==1.1.1
 nltk==3.4
-numpy==1.16.2
+numpy==1.22.0
 pyrsistent==0.14.11
 pytz==2019.1
 requests==2.21.0
